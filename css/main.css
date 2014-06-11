@@ -1,13 +1,117 @@
 
-/*Stylesheet for Homepage*/
+/* galenscovell.github.io 2014-06-11 */
+/* Pinsaar colors: #3af781, #2bb860; #196b38, #159e96, #167872 */
 
-h3 {
-    font-family: sans-serif;
-    font-size: 3em;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-p {
-    font-family: sans-serif;
-    font-size: 1.5em;
+#offset {
+    height: 75px;
+    width: 100%;
 }
 
+#nav {
+    width: 100%;
+    float: left;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    z-index: 10;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 0px;
+}
+
+#nav ul {
+    list-style: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0; 
+}
+
+#nav li {
+    float: left; 
+}
+
+#nav li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc;
+    transition: 1.5s;
+}
+
+#nav li:first-child a {
+    border-left: 1px solid #ccc; 
+}
+
+#nav li a:hover {
+    border-radius: 50px;
+    background-color: #fff;
+    transition: 1.5s; 
+}
+
+#top {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100%;
+    background: hsla(135, 78%, 46%, 1.0);
+    color: hsla(135, 78%, 100%, 0.8);
+}
+
+#minibio {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100%;
+    color: hsla(229, 68%, 50%, 0.7);
+}
+
+#work {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100%;
+    background: hsla(229, 68%, 52%, 1.0);
+    color: hsla(229, 68%, 90%, 0.8);
+}
+
+#projects {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100%;
+    color: hsla(229, 68%, 50%, 0.7);
+}
+
+#about {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 100%;
+    background: hsla(135, 78%, 46%, 1.0);
+    color: hsla(135, 78%, 100%, 0.8);
+}
+
+#resume {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 50%;
+    color: hsla(229, 68%, 50%, 0.7);
+}
+
+#bottom {
+    text-align: center;
+    font-family: Arial;
+    font-size: 28px;
+    height: 50%;
+    background: hsla(229, 68%, 52%, 1.0);
+    color: hsla(229, 68%, 90%, 0.8);
+}
