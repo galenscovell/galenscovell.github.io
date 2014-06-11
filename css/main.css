@@ -16,8 +16,7 @@ html, body {
 #nav {
     width: 100%;
     float: left;
-    background-color: #f2f2f2;
-    border-bottom: 2px solid #ccc;
+    background-color: hsla(210, 80%, 50%, 0.5);
     position: fixed;
     z-index: 10;
     border-bottom-left-radius: 20px;
@@ -27,7 +26,7 @@ html, body {
 
 #nav ul {
     list-style: none;
-    width: 800px;
+    width: 650px;
     margin: 0 auto;
     padding: 0; 
 }
@@ -41,19 +40,18 @@ html, body {
     padding: 12px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc;
+    color: hsla(210, 40%, 90%, 0.7);
     transition: 1.5s;
-}
-
-#nav li:first-child a {
-    border-left: 1px solid #ccc; 
 }
 
 #nav li a:hover {
     border-radius: 50px;
     background-color: #fff;
     transition: 1.5s; 
+}
+
+#nav li a:onclick {
+    transition: 0.8s;
 }
 
 #top {
