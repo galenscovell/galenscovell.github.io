@@ -16,7 +16,7 @@ html, body {
 #nav {
     width: 100%;
     float: left;
-    background-color: hsla(210, 80%, 50%, 0.5);
+    background-color: hsla(210, 60%, 50%, 0.5);
     position: fixed;
     z-index: 10;
     border-bottom-left-radius: 20px;
@@ -25,8 +25,8 @@ html, body {
 }
 
 #nav ul {
+    width: 550px;
     list-style: none;
-    width: 650px;
     margin: 0 auto;
     padding: 0; 
 }
@@ -47,6 +47,7 @@ html, body {
 #nav li a:hover {
     border-radius: 50px;
     background-color: #fff;
+    color: hsla(210, 40%, 50%, 0.9);
     transition: 1.5s; 
 }
 
@@ -68,7 +69,7 @@ html, body {
     font-family: Arial;
     font-size: 28px;
     height: 100%;
-    color: hsla(229, 68%, 50%, 0.7);
+    color: hsla(229, 60%, 50%, 0.7);
 }
 
 #work {
@@ -76,8 +77,8 @@ html, body {
     font-family: Arial;
     font-size: 28px;
     height: 100%;
-    background: hsla(229, 68%, 52%, 1.0);
-    color: hsla(229, 68%, 90%, 0.8);
+    background: hsla(229, 60%, 50%, 1.0);
+    color: hsla(229, 60%, 90%, 0.8);
 }
 
 #projects {
@@ -85,7 +86,7 @@ html, body {
     font-family: Arial;
     font-size: 28px;
     height: 100%;
-    color: hsla(229, 68%, 50%, 0.7);
+    color: hsla(229, 60%, 50%, 0.7);
 }
 
 #about {
@@ -102,7 +103,7 @@ html, body {
     font-family: Arial;
     font-size: 28px;
     height: 50%;
-    color: hsla(229, 68%, 50%, 0.7);
+    color: hsla(229, 60%, 50%, 0.7);
 }
 
 #bottom {
@@ -110,6 +111,6 @@ html, body {
     font-family: Arial;
     font-size: 28px;
     height: 50%;
-    background: hsla(229, 68%, 52%, 1.0);
-    color: hsla(229, 68%, 90%, 0.8);
+    background: hsla(229, 60%, 52%, 1.0);
+    color: hsla(229, 60%, 90%, 0.8);
 }
