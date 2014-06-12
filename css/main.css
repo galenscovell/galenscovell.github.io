@@ -13,16 +13,16 @@ html, body {
     width: 100%;
 }
 
+
+/* Navbar */
 #nav {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     float: left;
     background-color: hsla(210, 60%, 50%, 0.5);
     position: fixed;
-    z-index: 10;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     top: 0px;
+    z-index: 10;
 }
 
 #nav ul {
@@ -52,15 +52,14 @@ html, body {
     transition: 1.5s; 
 }
 
-#nav li a:onclick {
-    transition: 0.8s;
-}
 
+/* Top */
 #top {
     text-align: center;
     height: 100%;
     background: hsla(135, 78%, 46%, 1.0);
     color: hsla(135, 78%, 100%, 0.8);
+    position: relative
 }
 
 #top h1 {
@@ -73,21 +72,54 @@ html, body {
     font-size: 28px;
 }
 
+#top i {
+    opacity: 0.1;
+    transition: 1.5s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#top i:hover {
+    opacity: 0.8;
+    transition: 1.5s;
+}
+
+
+/* Minibio */
 #minibio {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     color: hsla(229, 60%, 50%, 0.7);
+    position: relative;
 }
 
 #minibio h3 {
     font-size: 28px;
+    font-family: 'Amaranth', sans-serif;
 }
 
+#minibio p {
+    font-size: 21px;
+}
+
+#minibio i {
+    opacity: 0.1;
+    transition: 1.5s;
+    color: #0099FF;
+    text-decoration: none;
+}
+
+#minibio i:hover {
+    opacity: 0.8;
+    transition: 1.5s;
+}
+
+
+/* Work */
 #work {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
     height: 100%;
     background: hsla(229, 60%, 50%, 1.0);
     color: hsla(229, 60%, 90%, 0.8);
@@ -95,8 +127,28 @@ html, body {
 
 #work h3 {
     font-size: 28px;
+    font-family: 'Amaranth', sans-serif;
 }
 
+#work p {
+    font-size: 21px;
+}
+
+#work i {
+    opacity: 0.1;
+    transition: 1.5s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#work i:hover {
+    opacity: 0.8;
+    transition: 1.5s;
+}
+
+
+
+/* Projects */
 #projects {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -106,9 +158,28 @@ html, body {
 
 #projects h3 {
     font-size: 28px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#projects p {
+    font-size: 21px;
+}
+
+#projects i {
+    opacity: 0.1;
+    transition: 1.5s;
+    color: #0099FF;
+    text-decoration: none;
+}
+
+#projects i:hover {
+    opacity: 0.8;
+    transition: 1.5s;
 }
 
 
+
+/* About */
 #about {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -119,9 +190,28 @@ html, body {
 
 #about h3 {
     font-size: 28px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#about p {
+    font-size: 21px;
+}
+
+#about i {
+    opacity: 0.1;
+    transition: 1.5s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#about i:hover {
+    opacity: 0.8;
+    transition: 1.5s;
 }
 
 
+
+/* Resume */
 #resume {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -131,9 +221,15 @@ html, body {
 
 #resume h3 {
     font-size: 28px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#resume p {
+    font-size: 21px;
 }
 
 
+/* Bottom */
 #bottom {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
