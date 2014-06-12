@@ -14,6 +14,7 @@ html, body {
 }
 
 #nav {
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     float: left;
     background-color: hsla(210, 60%, 50%, 0.5);
@@ -57,58 +58,85 @@ html, body {
 
 #top {
     text-align: center;
-    font-family: Arial;
-    font-size: 28px;
     height: 100%;
     background: hsla(135, 78%, 46%, 1.0);
     color: hsla(135, 78%, 100%, 0.8);
 }
 
+#top h1 {
+    font-family: 'Stalemate', cursive;
+    font-size: 96px;
+}
+
+#top h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+
 #minibio {
     text-align: center;
-    font-family: Arial;
-    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     color: hsla(229, 60%, 50%, 0.7);
 }
 
+#minibio h3 {
+    font-size: 28px;
+}
+
 #work {
     text-align: center;
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     height: 100%;
     background: hsla(229, 60%, 50%, 1.0);
     color: hsla(229, 60%, 90%, 0.8);
 }
 
+#work h3 {
+    font-size: 28px;
+}
+
 #projects {
     text-align: center;
-    font-family: Arial;
-    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     color: hsla(229, 60%, 50%, 0.7);
 }
 
+#projects h3 {
+    font-size: 28px;
+}
+
+
 #about {
     text-align: center;
-    font-family: Arial;
-    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     background: hsla(135, 78%, 46%, 1.0);
     color: hsla(135, 78%, 100%, 0.8);
 }
 
+about h3 {
+    font-size: 28px;
+}
+
+
 #resume {
     text-align: center;
-    font-family: Arial;
-    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
     height: 50%;
     color: hsla(229, 60%, 50%, 0.7);
 }
 
+#resume h3 {
+    font-size: 28px;
+}
+
+
 #bottom {
     text-align: center;
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     height: 50%;
     background: hsla(229, 60%, 52%, 1.0);
