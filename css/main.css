@@ -14,6 +14,7 @@ html, body {
 }
 
 
+
 /* Navbar */
 #nav {
     font-family: 'Open Sans', sans-serif;
@@ -238,3 +239,4 @@ html, body {
     background: hsla(229, 60%, 52%, 1.0);
     color: hsla(229, 60%, 90%, 0.8);
 }
+
