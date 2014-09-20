@@ -1,4 +1,5 @@
 galenscovell.github.io
 ======================
 
-Personal page, being slowly built up from the ground as I learn web development.
+Personal website and portfolio.
+Steadily being assembled as I learn web development!
