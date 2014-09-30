@@ -92,7 +92,7 @@ html, body {
     border-radius: 50%;
     position: absolute;
     left: 25%;
-    font-size: 2.5vw;
+    font-size: 36px;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
@@ -106,13 +106,13 @@ html, body {
 }
 
 #art {
-    width: 15vw;
-    height: 15vw;
+    width: 15px;
+    height: 15px;
     border: solid white 5px;
     border-radius: 150px;
     position: absolute;
     right: 25%;
-    font-size: 2.5vw;
+    font-size: 36px;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
