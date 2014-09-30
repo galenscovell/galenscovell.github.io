@@ -86,13 +86,13 @@ html, body {
 }
 
 #webdev {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     border: solid white 5px;
-    border-radius: 150px;
+    border-radius: 50%;
     position: absolute;
     left: 25%;
-    font-size: 32px;
+    font-size: 2.5vw;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
@@ -106,13 +106,13 @@ html, body {
 }
 
 #art {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     border: solid white 5px;
     border-radius: 150px;
     position: absolute;
     right: 25%;
-    font-size: 32px;
+    font-size: 2.5vw;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
@@ -162,8 +162,8 @@ html, body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-    background: hsla(135, 78%, 46%, 1.0);
-    color: hsla(135, 78%, 100%, 0.8);
+    background: hsla(229, 60%, 52%, 1.0);
+    color: hsla(229, 60%, 90%, 0.8);
 }
 
 #projects h3 {
@@ -203,7 +203,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     height: 50%;
-    background: hsla(229, 60%, 52%, 1.0);
-    color: hsla(229, 60%, 90%, 0.8);
+    background: hsla(135, 78%, 46%, 1.0);
+    color: hsla(135, 78%, 100%, 0.8);
 }
 
