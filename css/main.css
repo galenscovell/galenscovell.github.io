@@ -86,8 +86,8 @@ html, body {
 }
 
 #webdev {
-    width: 15vw;
-    height: 15vw;
+    width: 15px;
+    height: 15px;
     border: solid white 5px;
     border-radius: 50%;
     position: absolute;
