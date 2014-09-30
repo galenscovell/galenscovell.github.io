@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-06-11 */
+/* galenscovell.github.io 2014-09-29 */
 /* Pinsaar colors: #3af781, #2bb860; #196b38, #159e96, #167872 */
 
 html, body {
@@ -27,7 +27,7 @@ html, body {
 }
 
 #nav ul {
-    width: 575px;
+    width: 275px;
     list-style: none;
     margin: 0 auto;
     padding: 0; 
@@ -43,14 +43,13 @@ html, body {
     text-decoration: none;
     font-weight: bold;
     color: hsla(210, 40%, 90%, 0.7);
-    transition: 1.5s;
+    transition: 0.8s;
 }
 
 #nav li a:hover {
-    border-radius: 50px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     color: hsla(210, 40%, 50%, 0.9);
-    transition: 1.5s; 
+    transition: 0.8s; 
 }
 
 
@@ -64,8 +63,9 @@ html, body {
 }
 
 #top h1 {
-    font-family: 'Stalemate', cursive;
-    font-size: 96px;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 76px;
+    letter-spacing: 10px;
 }
 
 #top h3 {
@@ -75,109 +75,55 @@ html, body {
 
 #top i {
     opacity: 0.1;
-    transition: 1.5s;
+    transition: 0.8s;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 #top i:hover {
     opacity: 0.8;
-    transition: 1.5s;
+    transition: 0.8s;
 }
 
-
-/* Minibio */
-#minibio {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-    color: hsla(229, 60%, 50%, 0.7);
-    position: relative;
-}
-
-#minibio h3 {
-    font-size: 28px;
-    font-family: 'Amaranth', sans-serif;
-}
-
-#minibio p {
-    font-size: 21px;
-}
-
-#minibio i {
-    opacity: 0.1;
-    transition: 1.5s;
-    color: #0099FF;
+#webdev {
+    width: 200px;
+    height: 200px;
+    border: solid white 5px;
+    border-radius: 150px;
+    position: absolute;
+    left: 25%;
+    font-size: 32px;
+    color: hsla(135, 78%, 46%, 1.0);
+    background: white;
+    opacity: 0.5;
+    transition: 0.8s;
     text-decoration: none;
 }
 
-#minibio i:hover {
+#webdev:hover {
     opacity: 0.8;
-    transition: 1.5s;
+    transition: 0.8s;
 }
 
-
-/* Work */
-#work {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-    background: hsla(229, 60%, 50%, 1.0);
-    color: hsla(229, 60%, 90%, 0.8);
-}
-
-#work h3 {
-    font-size: 28px;
-    font-family: 'Amaranth', sans-serif;
-}
-
-#work p {
-    font-size: 21px;
-}
-
-#work i {
-    opacity: 0.1;
-    transition: 1.5s;
-    color: #FFFFFF;
+#art {
+    width: 200px;
+    height: 200px;
+    border: solid white 5px;
+    border-radius: 150px;
+    position: absolute;
+    right: 25%;
+    font-size: 32px;
+    color: hsla(135, 78%, 46%, 1.0);
+    background: white;
+    opacity: 0.5;
+    transition: 0.8s;
     text-decoration: none;
 }
 
-#work i:hover {
+#art:hover {
     opacity: 0.8;
-    transition: 1.5s;
+    transition: 0.8s;
 }
-
-
-
-/* Projects */
-#projects {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-    color: hsla(229, 60%, 50%, 0.7);
-}
-
-#projects h3 {
-    font-size: 28px;
-    font-family: 'Amaranth', sans-serif;
-}
-
-#projects p {
-    font-size: 21px;
-}
-
-#projects i {
-    opacity: 0.1;
-    transition: 1.5s;
-    color: #0099FF;
-    text-decoration: none;
-}
-
-#projects i:hover {
-    opacity: 0.8;
-    transition: 1.5s;
-}
-
 
 
 /* About */
@@ -185,13 +131,13 @@ html, body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
-    background: hsla(135, 78%, 46%, 1.0);
-    color: hsla(135, 78%, 100%, 0.8);
+    color: hsla(229, 60%, 50%, 0.7);
+    position: relative;
 }
 
 #about h3 {
     font-size: 28px;
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #about p {
@@ -200,33 +146,54 @@ html, body {
 
 #about i {
     opacity: 0.1;
-    transition: 1.5s;
-    color: #FFFFFF;
+    transition: 0.8s;
+    color: #0099FF;
     text-decoration: none;
 }
 
 #about i:hover {
     opacity: 0.8;
-    transition: 1.5s;
+    transition: 0.8s;
 }
 
 
-
-/* Resume */
-#resume {
+/* Projects */
+#projects {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background: hsla(135, 78%, 46%, 1.0);
+    color: hsla(135, 78%, 100%, 0.8);
+}
+
+#projects h3 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#projects p {
+    font-size: 21px;
+}
+
+#projects i {
+    opacity: 0.1;
+    transition: 0.8s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#projects i:hover {
+    opacity: 0.8;
+    transition: 0.8s;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
     height: 50%;
     color: hsla(229, 60%, 50%, 0.7);
-}
-
-#resume h3 {
-    font-size: 28px;
-    font-family: 'Amaranth', sans-serif;
-}
-
-#resume p {
-    font-size: 21px;
 }
 
 
