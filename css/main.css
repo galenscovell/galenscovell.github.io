@@ -86,13 +86,13 @@ html, body {
 }
 
 #webdev {
-    width: 15px;
-    height: 15px;
+    width: 15vw;
+    height: 15vw;
     border: solid white 5px;
     border-radius: 50%;
     position: absolute;
     left: 25%;
-    font-size: 36px;
+    font-size: 2.5vw;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
@@ -106,13 +106,13 @@ html, body {
 }
 
 #art {
-    width: 15px;
-    height: 15px;
+    width: 15vw;
+    height: 15vw;
     border: solid white 5px;
     border-radius: 150px;
     position: absolute;
     right: 25%;
-    font-size: 36px;
+    font-size: 2.5vw;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
