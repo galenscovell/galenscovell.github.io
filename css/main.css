@@ -10,7 +10,7 @@ html, body {
 }
 
 #offset {
-    height: 75px;
+    height: 10vh;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@ html, body {
 }
 
 #nav ul {
-    width: 275px;
+    width: 100%;
     list-style: none;
     margin: 0 auto;
     padding: 0; 
@@ -65,13 +65,13 @@ html, body {
 
 #top h1 {
     font-family: 'Amaranth', sans-serif;
-    font-size: 76px;
-    letter-spacing: 10px;
+    font-size: 6vw;
+    letter-spacing: 0.8vw;
 }
 
 #top h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 #top i {
@@ -97,33 +97,33 @@ html, body {
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
-    transition: 0.8s;
+    transition: 0.4s;
     text-decoration: none;
 }
 
 #webdev:hover {
     opacity: 0.8;
-    transition: 0.8s;
+    transition: 0.6s;
 }
 
 #art {
     width: 15vw;
     height: 15vw;
     border: solid white 5px;
-    border-radius: 150px;
+    border-radius: 50%;
     position: absolute;
     right: 25%;
     font-size: 2.5vw;
     color: hsla(135, 78%, 46%, 1.0);
     background: white;
     opacity: 0.5;
-    transition: 0.8s;
+    transition: 0.4s;
     text-decoration: none;
 }
 
 #art:hover {
     opacity: 0.8;
-    transition: 0.8s;
+    transition: 0.6s;
 }
 
 
@@ -137,12 +137,12 @@ html, body {
 }
 
 #about h3 {
-    font-size: 28px;
+    font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
 }
 
 #about p {
-    font-size: 21px;
+    font-size: 1.5vw;
 }
 
 #about i {
@@ -168,12 +168,12 @@ html, body {
 }
 
 #projects h3 {
-    font-size: 28px;
+    font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
 }
 
 #projects p {
-    font-size: 21px;
+    font-size: 1.5vw;
 }
 
 #projects i {
@@ -192,7 +192,7 @@ html, body {
 #contact {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 2vw;
     height: 50%;
     color: hsla(229, 60%, 50%, 0.7);
 }
@@ -202,7 +202,7 @@ html, body {
 #bottom {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 2vw;
     height: 50%;
     background: hsla(135, 78%, 46%, 1.0);
     color: hsla(135, 78%, 100%, 0.8);
