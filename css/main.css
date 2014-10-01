@@ -7,10 +7,15 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background: url(pics/top.JPG) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #offset {
-    height: 10vh;
+    height: 12%;
     width: 100%;
 }
 
@@ -57,25 +62,25 @@ html, body {
 /* Top */
 #top {
     text-align: center;
-    height: 100%;
-    background: hsla(135, 78%, 46%, 1.0);
+    height: 100vh;
     color: hsla(135, 78%, 100%, 0.8);
+    background: hsla(135, 78%, 46%, 0.8); 
     position: relative
 }
 
 #top h1 {
-    font-family: 'Amaranth', sans-serif;
-    font-size: 6vw;
-    letter-spacing: 0.8vw;
+    margin-top: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
 }
 
 #top h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 21px;
 }
 
 #top i {
-    opacity: 0.1;
+    opacity: 0.3;
     transition: 0.8s;
     color: #FFFFFF;
     text-decoration: none;
@@ -86,52 +91,13 @@ html, body {
     transition: 0.8s;
 }
 
-#webdev {
-    width: 15vw;
-    height: 15vw;
-    border: solid white 5px;
-    border-radius: 50%;
-    position: absolute;
-    left: 25%;
-    font-size: 2.5vw;
-    color: hsla(135, 78%, 46%, 1.0);
-    background: white;
-    opacity: 0.5;
-    transition: 0.4s;
-    text-decoration: none;
-}
-
-#webdev:hover {
-    opacity: 0.8;
-    transition: 0.6s;
-}
-
-#art {
-    width: 15vw;
-    height: 15vw;
-    border: solid white 5px;
-    border-radius: 50%;
-    position: absolute;
-    right: 25%;
-    font-size: 2.5vw;
-    color: hsla(135, 78%, 46%, 1.0);
-    background: white;
-    opacity: 0.5;
-    transition: 0.4s;
-    text-decoration: none;
-}
-
-#art:hover {
-    opacity: 0.8;
-    transition: 0.6s;
-}
-
 
 /* About */
 #about {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+    background: hsla(229, 100%, 100%, 1.0);
     color: hsla(229, 60%, 50%, 0.7);
     position: relative;
 }
@@ -153,6 +119,34 @@ html, body {
 }
 
 #about i:hover {
+    opacity: 0.8;
+    transition: 0.8s;
+}
+
+
+/* Skills */
+#skills {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background: hsla(135, 78%, 46%, 1.0);
+    color: hsla(135, 78%, 100%, 0.8);
+    position: relative;
+}
+
+#skills h3 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#skills i {
+    opacity: 0.1;
+    transition: 0.8s;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#skills i:hover {
     opacity: 0.8;
     transition: 0.8s;
 }
@@ -188,18 +182,9 @@ html, body {
     transition: 0.8s;
 }
 
+
 /* Contact */
 #contact {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    height: 50%;
-    color: hsla(229, 60%, 50%, 0.7);
-}
-
-
-/* Bottom */
-#bottom {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
@@ -208,6 +193,10 @@ html, body {
     color: hsla(135, 78%, 100%, 0.8);
 }
 
-@media screen and (max-width: 1000px) {
-    #bottom { font-size: 3vw; }
+@media screen and (max-width: 800px) {
+    #top { font-size: 4vw; }
+    #about { font-size: 4vw; }
+    #skills { font-size: 4vw; }
+    #projects { font-size: 4vw; }
+    #contact { font-size: 4vw; }
 }
