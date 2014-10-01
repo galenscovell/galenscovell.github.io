@@ -137,12 +137,12 @@ html, body {
 }
 
 #about h3 {
-    font-size: 2vw;
+    font-size: 28px;
     font-family: 'Open Sans', sans-serif;
 }
 
 #about p {
-    font-size: 1.5vw;
+    font-size: 21px;
 }
 
 #about i {
@@ -168,12 +168,12 @@ html, body {
 }
 
 #projects h3 {
-    font-size: 2vw;
+    font-size: 28px;
     font-family: 'Open Sans', sans-serif;
 }
 
 #projects p {
-    font-size: 1.5vw;
+    font-size: 21px;
 }
 
 #projects i {
@@ -192,7 +192,7 @@ html, body {
 #contact {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 28px;
     height: 50%;
     color: hsla(229, 60%, 50%, 0.7);
 }
@@ -202,9 +202,12 @@ html, body {
 #bottom {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 28px;
     height: 50%;
     background: hsla(135, 78%, 46%, 1.0);
     color: hsla(135, 78%, 100%, 0.8);
 }
 
+@media screen and (max-width: 1000px) {
+    #bottom { font-size: 3vw; }
+}
