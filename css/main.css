@@ -146,6 +146,8 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #about1 #image img {
@@ -167,6 +169,8 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #about2 #image img {
@@ -188,6 +192,8 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #about3 #image img {
@@ -277,6 +283,42 @@ html, body {
         height: 200px;
         position: absolute;
         top: 63%;
+        left: 2%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #nav li a { padding: 12px 16px; }
+
+    #top h1 { margin-top: 50%; }
+
+    #about { height: 1800px; }
+
+    #about h3 { margin-top: -2%; }
+
+    #about1 {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 14%;
+        left: 2%;
+    }
+
+    #about2 {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 42%;
+        left: 2%;
+    }
+
+    #about3 {
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 72%;
         left: 2%;
     }
 
