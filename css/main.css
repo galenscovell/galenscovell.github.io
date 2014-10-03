@@ -7,11 +7,6 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background: url(pics/top.JPG) no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 #offset {
@@ -63,9 +58,19 @@ html, body {
     text-align: center;
     height: 100%;
     color: hsla(135, 78%, 100%, 0.8);
-    background: hsla(135, 78%, 46%, 0.8); 
+    background: url(pics/photos/top.JPG) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative
 }
+
+#top .tint {
+    height: 100%;
+    background: hsla(135, 78%, 46%, 0.8);
+}
+
 
 #top h1 {
     margin-top: 15%;
@@ -101,7 +106,7 @@ html, body {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     height: 800px;
-    background: #F3F3F3;
+    background-color: #F3F3F3;
     color: #1A1A1A;
     position: relative;
 }
@@ -203,15 +208,27 @@ html, body {
     margin: 0 auto;
 }
 
+#middle_1 {
+    height: 400px;
+    background: url(pics/photos/middle2.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+#middle_1 .tint {
+    height: 400px;
+    background: hsla(135, 78%, 46%, 0.8);
+}
 
 /* Skills */
 #skills {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    height: 800px;
-    background: hsla(135, 78%, 46%, 1.0);
-    color: hsla(135, 78%, 100%, 0.8);
+    height: 1000px;
+    background: #F3F3F3;
+    color: #1A1A1A;
     position: relative;
 }
 
@@ -245,13 +262,13 @@ html, body {
 
 #skills1 {
     width: 30%;
-    height: 200px;
+    height: 100px;
     position: absolute;
     left: 4%;
 }
 
 #skills1 #text {
-    border-top: solid green 3px;
+    border-top: solid white 3px;
     position: relative;
     top: 10%;
     padding-left: 15px;
@@ -259,21 +276,21 @@ html, body {
 }
 
 #skills1 #image img {
-    height: 200px;
-    width: 320px;
+    height: 100px;
+    width: 200px;
     display: block;
     margin: 0 auto;
 }
 
 #skills2 {
     width: 30%;
-    height: 200px;
+    height: 100px;
     position: absolute;
     left: 35%;
 }
 
 #skills2 #text {
-    border-top: solid green 3px;
+    border-top: solid white 3px;
     position: relative;
     top: 10%;
     padding-left: 15px;
@@ -281,21 +298,21 @@ html, body {
 }
 
 #skills2 #image img {
-    height: 200px;
-    width: 320px;
+    height: 100px;
+    width: 100px;
     display: block;
     margin: 0 auto;
 }
 
 #skills3 {
     width: 30%;
-    height: 200px;
+    height: 100px;
     position: absolute;
     left: 66%;
 }
 
 #skills3 #text {
-    border-top: solid green 3px;
+    border-top: solid white 3px;
     position: relative;
     top: 10%;
     padding-left: 15px;
@@ -303,10 +320,98 @@ html, body {
 }
 
 #skills3 #image img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     display: block;
     margin: 0 auto;
+}
+
+.other_skill1 {
+    position: absolute;
+    top: 65%;
+    width: 30%;
+    left: 15%;
+}
+
+.other_skill1 img {
+    width: 80px;
+    height: 80px;
+}
+
+.other_skill2 {
+    position: absolute;
+    top: 75%;
+    width: 30%;
+    left: 15%;
+}
+
+.other_skill2 img {
+    width: 80px;
+    height: 80px;
+}
+
+.other_skill3 {
+    position: absolute;
+    top: 85%;
+    width: 30%;
+    left: 15%;
+}
+
+.other_skill3 img {
+    width: 80px;
+    height: 80px;
+}
+
+.other_skill4 {
+    position: absolute;
+    top: 65%;
+    width: 30%;
+    left: 60%;
+}
+
+.other_skill4 img {
+    width: 80px;
+    height: 80px;
+}
+
+.other_skill5 {
+   position: absolute;
+    top: 75%;
+    width: 30%;
+    left: 60%;
+}
+
+.other_skill5 img {
+    width: 80px;
+    height: 80px;
+}
+
+.other_skill6 {
+    position: absolute;
+    top: 85%;
+    width: 30%;
+    left: 60%;
+}
+
+.other_skill6 img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+#middle_2 {
+    height: 400px;
+    background: url(pics/photos/middle5.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#middle_2 .tint {
+    height: 400px;
+    background: hsla(135, 78%, 46%, 0.8);
 }
 
 
@@ -410,4 +515,31 @@ html, body {
         left: 2%;
     }
 
+    #skills { height: 1800px; }
+
+    #skills h3 { margin-top: -2%; }
+
+    #skills1 {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 14%;
+        left: 2%;
+    }
+
+    #skills2 {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 44%;
+        left: 2%;
+    }
+
+    #skills3 {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 72%;
+        left: 2%;
+    }
 }
