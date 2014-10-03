@@ -7,7 +7,6 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
     background: url(pics/top.JPG) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -205,9 +204,10 @@ html, body {
 }
 
 
+
 /* Skills */
 #skills {
-    text-align: center;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
     height: 800px;
     background: hsla(135, 78%, 46%, 1.0);
@@ -215,11 +215,99 @@ html, body {
     position: relative;
 }
 
-#skills h3 {
-    font-size: 28px;
-    font-family: 'Open Sans', sans-serif;
+#skills h2 {
+    font-size: 16px;
 }
 
+#skills h3 {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: -1.5%;
+}
+
+#skills h4 {
+    font-size: 15px;
+}
+
+#skills h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: gray;
+}
+
+#skills p {
+    font-size: 16px;
+    color: gray;
+}
+
+#skills1 {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 4%;
+}
+
+#skills1 #text {
+    border-top: solid green 3px;
+    position: relative;
+    top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#skills1 #image img {
+    height: 200px;
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+#skills2 {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+}
+
+#skills2 #text {
+    border-top: solid green 3px;
+    position: relative;
+    top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#skills2 #image img {
+    height: 200px;
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+#skills3 {
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    left: 66%;
+}
+
+#skills3 #text {
+    border-top: solid green 3px;
+    position: relative;
+    top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#skills3 #image img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
 
 
 
