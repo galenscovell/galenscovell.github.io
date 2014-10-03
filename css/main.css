@@ -58,7 +58,7 @@ html, body {
     text-align: center;
     height: 100%;
     color: hsla(135, 78%, 100%, 0.8);
-    background: url(pics/photos/top.JPG) no-repeat center fixed;
+    background: url('pics/top.JPG') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -210,7 +210,7 @@ html, body {
 
 #middle_1 {
     height: 400px;
-    background: url(pics/photos/middle.jpg) no-repeat center fixed;
+    background: url('pics/middle.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -402,7 +402,7 @@ html, body {
 
 #middle_2 {
     height: 400px;
-    background: url(pics/photos/middle2.jpg) no-repeat center fixed;
+    background: url('pics/middle2.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
