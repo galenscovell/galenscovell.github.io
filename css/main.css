@@ -210,7 +210,7 @@ html, body {
 
 #middle_1 {
     height: 400px;
-    background: url(http:\\galenscovell.github.io/css/pics/photos/middle.jpg) no-repeat center fixed;
+    background: url(pics/photos/middle.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -402,7 +402,7 @@ html, body {
 
 #middle_2 {
     height: 400px;
-    background: url(pics/photos/middle5.jpg) no-repeat center fixed;
+    background: url(pics/photos/middle2.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
