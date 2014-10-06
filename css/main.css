@@ -150,11 +150,11 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#about1 #image img {
+#about1 img {
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -173,11 +173,11 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#about2 #image img {
+#about2 img {
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -196,11 +196,11 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#about3 #image img {
+#about3 img {
     height: 200px;
     width: 200px;
     border-radius: 100px;
@@ -210,7 +210,7 @@ html, body {
 
 #middle_1 {
     height: 400px;
-    background: url('pics/middle.jpg') no-repeat center fixed;
+    background: url('pics/middle2.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -226,10 +226,11 @@ html, body {
 #skills {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    height: 1000px;
+    height: 1300px;
     background: #F3F3F3;
     color: #1A1A1A;
     position: relative;
+    width: 100%;
 }
 
 #skills h2 {
@@ -241,7 +242,7 @@ html, body {
     font-size: 28px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    margin-bottom: -1.5%;
+    margin-bottom: -2%;
 }
 
 #skills h4 {
@@ -271,15 +272,16 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#skills1 #image img {
+#skills1 img {
     height: 100px;
     width: 200px;
     display: block;
     margin: 0 auto;
+    position: relative;
 }
 
 #skills2 {
@@ -293,11 +295,11 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#skills2 #image img {
+#skills2 img {
     height: 100px;
     width: 100px;
     display: block;
@@ -315,94 +317,163 @@ html, body {
     border-top: solid white 3px;
     position: relative;
     top: 10%;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#skills3 #image img {
+#skills3 img {
     height: 100px;
     width: 100px;
     display: block;
     margin: 0 auto;
 }
 
-.other_skill1 {
+.other_skills {
+    width: 80%;
     position: absolute;
     top: 65%;
-    width: 30%;
-    left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.other_skill1 img {
-    width: 80px;
-    height: 80px;
+.other_skills h3 {
+    margin-top: -2%;
 }
 
-.other_skill2 {
+#other_skill1 {
     position: absolute;
-    top: 75%;
-    width: 30%;
-    left: 15%;
+    left: 0%;
+    width: 25%;
 }
 
-.other_skill2 img {
-    width: 80px;
+#other_skill1 h5 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#other_skill1 p {
+    text-align: center;
+}
+
+#other_skill1 img {
     height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
 }
 
-.other_skill3 {
+#other_skill2 {
     position: absolute;
-    top: 85%;
-    width: 30%;
-    left: 15%;
+    left: 25%;
+    width: 25%;
 }
 
-.other_skill3 img {
-    width: 80px;
+#other_skill2 h5 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#other_skill2 p {
+    text-align: center;
+}
+
+#other_skill2 img {
     height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
 }
 
-.other_skill4 {
+#other_skill3 {
     position: absolute;
-    top: 65%;
-    width: 30%;
-    left: 60%;
+    left: 50%;
+    width: 25%;
 }
 
-.other_skill4 img {
-    width: 80px;
+#other_skill3 h5 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#other_skill3 p {
+    text-align: center;
+}
+
+#other_skill3 img {
     height: 80px;
-}
-
-.other_skill5 {
-   position: absolute;
-    top: 75%;
-    width: 30%;
-    left: 60%;
-}
-
-.other_skill5 img {
     width: 80px;
-    height: 80px;
+    display: block;
+    margin: 0 auto;
 }
 
-.other_skill6 {
+#other_skill4 {
     position: absolute;
-    top: 85%;
-    width: 30%;
-    left: 60%;
+    left: 75%;
+    width: 25%;
 }
 
-.other_skill6 img {
-    width: 80px;
+#other_skill4 h5 {
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#other_skill4 p {
+    text-align: center;
+}
+
+#other_skill4 img {
     height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
 }
 
 
 
+/* Skill bars */
+.bar {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.bar ul {
+    position: relative;
+    float: right;
+    right: 50%;
+    text-align: left;
+    list-style: none;
+}
+
+.bar li {
+    width: 50px;
+    height: 10px;
+    background: hsla(30, 96%, 52%, 0.8);
+    margin-right: 5px;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.bar div {
+    width: 48px;
+    height: 8px;
+    background: hsla(30, 96%, 80%, 0.8);
+}
+
+
+
+/* Second Middle Section */
 #middle_2 {
     height: 400px;
-    background: url('pics/middle2.jpg') no-repeat center fixed;
+    background: url('pics/middle.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -447,99 +518,138 @@ html, body {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     #top h1 { margin-top: 30%; }
 
     #about { height: 1600px; }
 
-    #about h3 { margin-top: -5%; }
+    #about h3 { margin-top: -2%; }
 
     #about1 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
-        top: 11%;
-        left: 2%;
+        top: 13%;
+        left: 3%;
     }
 
     #about2 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
-        top: 37%;
-        left: 2%;
+        top: 40%;
+        left: 3%;
     }
 
     #about3 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
-        top: 63%;
-        left: 2%;
+        top: 68%;
+        left: 3%;
+    }
+
+    #skills { height: 2000px; }
+
+    #skills h3 { margin-top: -5%; }
+
+    #skills1 {
+        width: 95%;
+        height: 200px;
+        position: absolute;
+        top: 11%;
+        left: 3%;
+    }
+
+    #skills2 {
+        width: 95%;
+        height: 200px;
+        position: absolute;
+        top: 30%;
+        left: 3%;
+    }
+
+    #skills3 {
+        width: 95%;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 3%;
+    }
+
+    .other_skills {
+        position: absolute;
+        top: 76%;
+
+    }
+
+    .other_skills img {
+        height: 20px;
+        width: 50px;
     }
 
 }
 
 @media screen and (max-width: 400px) {
 
-    #nav li a { padding: 12px 16px; }
+    #nav li a { padding: 16px 8px; }
 
     #top h1 { margin-top: 50%; }
 
-    #about { height: 1800px; }
+    #about { height: 2000px; }
 
-    #about h3 { margin-top: -2%; }
+    #about h3 { margin-top: -10%; }
 
     #about1 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
-        top: 14%;
-        left: 2%;
+        top: 13%;
+        left: 3%;
     }
 
     #about2 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
         top: 42%;
-        left: 2%;
+        left: 3%;
     }
 
     #about3 {
-        width: 100%;
+        width: 95%;
         height: 200px;
         position: absolute;
         top: 72%;
-        left: 2%;
+        left: 3%;
     }
 
-    #skills { height: 1800px; }
+    #skills { height: 2400px; }
 
-    #skills h3 { margin-top: -2%; }
+    #skills h3 { margin-top: -20%; }
 
     #skills1 {
-        width: 100%;
+        width: 95%;
         height: 100px;
         position: absolute;
-        top: 14%;
-        left: 2%;
+        top: 12%;
+        left: 3%;
     }
 
     #skills2 {
-        width: 100%;
+        width: 95%;
         height: 100px;
         position: absolute;
-        top: 44%;
-        left: 2%;
+        top: 38%;
+        left: 3%;
     }
 
     #skills3 {
-        width: 100%;
+        width: 95%;
         height: 100px;
         position: absolute;
-        top: 72%;
-        left: 2%;
+        top: 64%;
+        left: 3%;
     }
 }
