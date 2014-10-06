@@ -440,32 +440,33 @@ html, body {
 
 /* Skill bars */
 .bar {
-    width: 100%;
-    margin-top: -10%;
-}
-
-.bar ul {
+    height: 20px;
     position: relative;
-    float: right;
-    right: 50%;
-    text-align: left;
-    list-style: none;
+    background: #555;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.bar li {
-    width: 50px;
-    height: 10px;
-    background: hsla(30, 96%, 52%, 0.8);
-    margin-right: 5px;
-    float: left;
+.bar span {
+    display: block;
+    height: 100%;
+    border-radius: 3px;
+    background-color: hsla(137, 72%, 46%, 0.6);
+    color: hsla(207, 100%, 91%, 0);
     position: relative;
-    left: 50%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    transition: 2s;
 }
 
-.bar div {
-    width: 48px;
-    height: 8px;
-    background: hsla(30, 96%, 80%, 0.8);
+.bar span:hover {
+    background-color: hsla(137, 72%, 46%, 1);
+    color: hsla(207, 100%, 91%, 1);
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 
