@@ -20,7 +20,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     float: left;
-    background-color: hsla(210, 100%, 20%, 0.5);
+    background-color: hsla(60, 10%, 5%, 0.85);
     border-top: solid green 3px;
     position: fixed;
     top: 0px;
@@ -453,20 +453,20 @@ html, body {
     display: block;
     height: 100%;
     border-radius: 3px;
-    background-color: hsla(137, 72%, 46%, 0.6);
+    background-color: hsla(137, 72%, 40%, 0.6);
     color: hsla(207, 100%, 91%, 0);
     position: relative;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .bar span:hover {
-    background-color: hsla(137, 72%, 46%, 1);
+    background-color: hsla(137, 72%, 50%, 1);
     color: hsla(207, 100%, 91%, 1);
-    transition: 0.8s;
-    cursor: pointer;
+    transition: 0.5s;
+    cursor: default;
 }
 
 
@@ -474,7 +474,7 @@ html, body {
 /* Second Middle Section */
 #middle_2 {
     height: 400px;
-    background: url('pics/middle.jpg') no-repeat center fixed;
+    background: url('pics/middle3.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
