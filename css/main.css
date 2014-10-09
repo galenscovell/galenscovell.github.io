@@ -493,8 +493,10 @@ html, body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 800px;
-    background: hsla(229, 60%, 52%, 1.0);
-    color: hsla(229, 60%, 90%, 0.8);
+    background: #F3F3F3;
+    color: #1A1A1A;
+    position: relative;
+    width: 100%;
 }
 
 #projects h3 {
@@ -504,6 +506,64 @@ html, body {
 
 #projects p {
     font-size: 21px;
+}
+
+.project_grid {
+    border: 5px solid gray;
+    height: 600px;
+    width: 80%;
+    position: absolute;
+    top: 16%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#project1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 200px;
+    width: 325px;
+    transition: all 1s ease;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project1:hover {
+    transition: all 1s ease;
+    background-size: 150% 150%;
+}
+
+#project2 {
+    position: absolute;
+    left: 35%;
+    top: 0%;
+    height: 200px;
+    width: 325px;
+    transition: all 1s ease;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project2:hover {
+    transition: all 1s ease;
+    background-size: 150% 150%;
+}
+
+#project3 {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 200px;
+    width: 325px;
+    transition: all 1s ease;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project3:hover {
+    transition: all 1s ease;
+    background-size: 150% 150%;
 }
 
 
