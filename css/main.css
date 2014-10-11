@@ -1,6 +1,6 @@
 
-/* galenscovell.github.io 2014-09-29 */
-/* Pinsaar colors: #3af781, #2bb860; #196b38, #159e96, #167872 */
+/* galenscovell.github.io 2014-10-10 */
+
 
 html, body {
     width: 100%;
@@ -120,7 +120,7 @@ html, body {
     font-size: 28px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    margin-bottom: -1.5%;
+    margin-bottom: -2%;
 }
 
 #about h4 {
@@ -219,6 +219,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin-bottom: -2%;
+    margin-top: 0%;
 }
 
 #skills h4 {
@@ -410,8 +411,19 @@ html, body {
 }
 
 #projects h3 {
+    text-align: center;
     font-size: 28px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: -2%;
+    margin-top: 0.5%;
+}
+
+#projects h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: gray;
 }
 
 #projects p {
@@ -434,7 +446,7 @@ html, body {
     height: 200px;
     width: 325px;
     transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background: url('pics/mastermind.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -445,7 +457,7 @@ html, body {
     height: 200px;
     width: 325px;
     transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background: url('pics/tictactoe.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -493,29 +505,114 @@ html, body {
     background-size: 100% 100%;
 }
 
+#project7 {
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project8 {
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project9 {
+    position: absolute;
+    right: 0%;
+    top: 60%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project10 {
+    position: absolute;
+    left: 0%;
+    top: 90%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project11 {
+    position: absolute;
+    left: 35%;
+    top: 90%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#project12 {
+    position: absolute;
+    right: 0%;
+    top: 90%;
+    height: 200px;
+    width: 325px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
 #project1:hover,
 #project2:hover,
 #project3:hover,
 #project4:hover,
 #project5:hover,
-#project6:hover {
+#project6:hover,
+#project7:hover,
+#project8:hover,
+#project9:hover,
+#project10:hover,
+#project11:hover,
+#project12:hover {
     transition: 1s;
     background-size: 115% 115%;
 }
 
 .button {
+    display: table;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
     background-color: hsla(135, 78%, 46%, 0.0);
     transition: 0.6s;
-    font-size: 21px;
-    color: hsla(60, 7%, 96%, 0.0);
 }
 
 .button:hover {
-    background-color: hsla(135, 78%, 46%, 0.6);
-    color: hsla(60, 7%, 96%, 0.6);
+    background-color: hsla(135, 78%, 46%, 0.7);
+    transition: 0.6s;
+}
+
+#button_box {
+    display: table-cell;
+    vertical-align: middle;
+    border: 4px solid hsla(60, 7%, 96%, 0.0);
+    font-size: 21px;
+    color: hsla(60, 7%, 96%, 0.0);
+    transition: 0.6s;
+    text-decoration: none;
+}
+
+#button_box:hover {
+    border: 4px solid hsla(60, 7%, 96%, 0.7);
+    color: hsla(60, 7%, 96%, 0.8);
     transition: 0.6s;
 }
 
@@ -523,14 +620,63 @@ html, body {
 
 /* Contact */
 #contact {
-    text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 16px;
     height: 300px;
-    background: hsla(135, 78%, 46%, 1.0);
-    color: hsla(135, 78%, 100%, 0.8);
+    background: #272727;
+    color: gray;
+    position: relative;
 }
 
+#contact p {
+    margin: 0;
+}
+
+#contact_details {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+    height: 200px;
+}
+
+#email {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+}
+
+#phone {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60%;
+}
+
+#contact_other {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 10%;
+    height: 200px;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
 
 @media screen and (max-width: 900px) {
 
