@@ -163,7 +163,7 @@ html, body {
 #about1 #text,
 #about2 #text,
 #about3 #text {
-    border-top: solid white 3px;
+    border-top: 4px solid white;
     position: relative;
     top: 10%;
     margin-left: 15px;
@@ -175,9 +175,10 @@ html, body {
 #about3 img {
     height: 200px;
     width: 200px;
-    border-radius: 100px;
+    border-radius: 100%;
     display: block;
     margin: 0 auto;
+    box-shadow: 3px 3px 1px #000;
 }
 
 
@@ -287,7 +288,7 @@ html, body {
 .other_skills {
     width: 80%;
     position: absolute;
-    top: 65%;
+    top: 60%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -406,7 +407,6 @@ html, body {
     height: 1200px;
     background: #F3F3F3;
     color: #1A1A1A;
-    position: relative;
     width: 100%;
 }
 
@@ -433,142 +433,76 @@ html, body {
 .project_grid {
     height: 800px;
     width: 80%;
-    position: absolute;
-    top: 15%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 #project1 {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    height: 200px;
-    width: 325px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/mastermind.png') no-repeat center;
     background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project2 {
-    position: absolute;
-    left: 35%;
-    top: 0%;
-    height: 200px;
-    width: 325px;
+    display: inline-block;
+    left: 36%;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/tictactoe.png') no-repeat center;
     background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project3 {
-    position: absolute;
+    display: inline-block;
     right: 0%;
-    top: 0%;
-    height: 200px;
-    width: 325px;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project4 {
-    position: absolute;
-    left: 0%;
-    top: 30%;
-    height: 200px;
-    width: 325px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project5 {
-    position: absolute;
-    left: 35%;
-    top: 30%;
-    height: 200px;
-    width: 325px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project6 {
-    position: absolute;
-    right: 0%;
-    top: 30%;
-    height: 200px;
-    width: 325px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
     transition: 1s;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
-}
-
-#project7 {
-    position: absolute;
-    left: 0%;
-    top: 60%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#project8 {
-    position: absolute;
-    left: 35%;
-    top: 60%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#project9 {
-    position: absolute;
-    right: 0%;
-    top: 60%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#project10 {
-    position: absolute;
-    left: 0%;
-    top: 90%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#project11 {
-    position: absolute;
-    left: 35%;
-    top: 90%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#project12 {
-    position: absolute;
-    right: 0%;
-    top: 90%;
-    height: 200px;
-    width: 325px;
-    transition: 1s;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
 }
 
 #project1:hover,
@@ -576,13 +510,7 @@ html, body {
 #project3:hover,
 #project4:hover,
 #project5:hover,
-#project6:hover,
-#project7:hover,
-#project8:hover,
-#project9:hover,
-#project10:hover,
-#project11:hover,
-#project12:hover {
+#project6:hover {
     transition: 1s;
     background-size: 115% 115%;
 }
@@ -593,11 +521,13 @@ html, body {
     width: 100%;
     background-color: hsla(135, 78%, 46%, 0.0);
     transition: 0.6s;
+    border-radius: 100%;
 }
 
 .button:hover {
     background-color: hsla(135, 78%, 46%, 0.7);
     transition: 0.6s;
+    border-radius: 100%;
 }
 
 #button_box {
@@ -608,12 +538,15 @@ html, body {
     color: hsla(60, 7%, 96%, 0.0);
     transition: 0.6s;
     text-decoration: none;
+    border-radius: 100%;
 }
 
 #button_box:hover {
     border: 4px solid hsla(60, 7%, 96%, 0.7);
-    color: hsla(60, 7%, 96%, 0.8);
+    color: hsla(60, 7%, 96%, 1);
+    text-shadow: 1px 1px 1px #000;
     transition: 0.6s;
+    border-radius: 100%;
 }
 
 
@@ -660,6 +593,7 @@ html, body {
     height: 150px;
     border-radius: 100px;
     position: absolute;
+    box-shadow: 3px 3px 1px #000;
 }
 
 #email {
