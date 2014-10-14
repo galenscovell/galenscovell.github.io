@@ -323,12 +323,18 @@ html, body {
     text-align: center;
 }
 
-#other_skill1 img,
 #other_skill2 img,
 #other_skill3 img,
 #other_skill4 img {
     height: 80px;
     width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#other_skill1 img {
+    height: 80px;
+    width: 100px;
     display: block;
     margin: 0 auto;
 }
