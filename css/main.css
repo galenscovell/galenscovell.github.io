@@ -479,7 +479,7 @@ html, body {
     height: 300px;
     width: 300px;
     transition: 1s;
-    background: url('pics/microblogger.jpg') no-repeat center;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
     border-radius: 100%;
     border: 3px solid gray;
@@ -496,12 +496,36 @@ html, body {
     border: 3px solid gray;
 }
 
+#project7 {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
+}
+
+#project8 {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 100%;
+    border: 3px solid gray;
+}
+
 #project1:hover,
 #project2:hover,
 #project3:hover,
 #project4:hover,
 #project5:hover,
-#project6:hover {
+#project6:hover,
+#project7:hover,
+#project8:hover {
     transition: 1s;
     background-size: 115% 115%;
 }
