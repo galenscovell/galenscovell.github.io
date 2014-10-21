@@ -303,7 +303,7 @@ html, body {
 #other_skill3,
 #other_skill4 {
     display: inline-block;
-    width: 225px;
+    width: 250px;
 }
 
 #other_skill1 h5,
@@ -345,11 +345,12 @@ html, body {
 .bar {
     height: 20px;
     position: relative;
-    background: #555;
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .bar span {
@@ -359,14 +360,15 @@ html, body {
     background-color: hsla(137, 72%, 40%, 0.6);
     color: hsla(207, 100%, 91%, 0);
     position: relative;
-    text-align: center;
+    text-align: right;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    transition: 1s;
+    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
 }
 
 .bar span:hover {
-    background-color: hsla(137, 72%, 50%, 1);
+    background-color: hsla(137, 72%, 50%, 0.8);
     color: hsla(207, 100%, 91%, 1);
     transition: 0.5s;
     cursor: default;
