@@ -178,7 +178,7 @@ html, body {
     border-radius: 100%;
     display: block;
     margin: 0 auto;
-    box-shadow: 3px 3px 1px #000;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -304,6 +304,7 @@ html, body {
 #other_skill4 {
     display: inline-block;
     width: 250px;
+    margin-bottom: 30px;
 }
 
 #other_skill1 h5,
@@ -577,73 +578,88 @@ html, body {
     position: relative;
 }
 
-#contact p {
-    margin: 0;
-}
-
 #contact_details {
     position: absolute;
     top: 10%;
     left: 0%;
-    width: 85%;
-    height: 175px;
+    width: 70%;
+    height: 70%;
+}
+
+#addendum {
+    height: 50%;
+    position: absolute;
+    left: 25%;
 }
 
 #addendum h6 {
-    position: absolute;
-    left: 25%;
+    position: relative;
     color: white;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 18px;
     margin: 0;
 }
 
 #addendum p {
-    position: absolute;
-    left: 25%;
-    top: 20%;
+    position: relative;
+    bottom: 15%;
 }
 
 #bubble {
     width: 150px;
     height: 150px;
-    border-radius: 100px;
+    border-radius: 100%;
     position: absolute;
-    left: 4%;
-    box-shadow: 3px 3px 1px #000;
+    left: 5%;
 }
 
 #email {
-    width: 30px;
+    width: 230px;
     height: 30px;
-    position: absolute;
     top: 50%;
-    left: 25%;
+    left: 30%;
+    position: absolute;
 }
 
-#phone {
+#email img {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 72%;
-    left: 25%;
 }
 
-#email_phone p {
-    position: absolute;
-    left: 30%;
-    top: 52%;
+#email p {
+    text-align: right;
+    margin: 0 auto;
 }
 
-#email_phone a {
+#email a {
     text-decoration: none;
     color: gray;
     transition: 0.5s;
 }
 
-#email_phone a:hover{
+#email a:hover{
     color: white;
     transition: 0.5s;
+}
+
+#phone {
+    width: 140px;
+    height: 30px;
+    top: 72%;
+    left: 30%;
+    position: absolute;
+}
+
+#phone img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#phone p {
+    text-align: right;
+    margin: 0 auto;
 }
 
 #contact_other {
@@ -767,7 +783,9 @@ html, body {
     #project3,
     #project4,
     #project5,
-    #project6 {
+    #project6,
+    #project7,
+    #project8 {
         width: 200px;
         height: 200px;
     }
@@ -830,15 +848,15 @@ html, body {
         left: 3%;
     }
 
-    #skills { height: 3000px; }
+    #skills { height: 3200px; }
 
-    #skills h3 { margin-top: -30%; }
+    #skills h3 { margin-top: -36%; }
 
     #skills1 {
         width: 95%;
         height: 100px;
         position: absolute;
-        top: 9%;
+        top: 8%;
         left: 3%;
     }
 
@@ -846,7 +864,7 @@ html, body {
         width: 95%;
         height: 100px;
         position: absolute;
-        top: 30%;
+        top: 29%;
         left: 3%;
     }
 
@@ -854,11 +872,86 @@ html, body {
         width: 95%;
         height: 100px;
         position: absolute;
-        top: 51%;
+        top: 46%;
         left: 3%;
     }
 
     .other_skills {
-        top: 70%;
+        top: 60%;
+    }
+
+    #projects { height: 2000px; }
+
+    #projects h3 { margin-top: -10%; }
+
+    #contact { height: 545px; }
+
+    #contact_details {
+        width: 85%;
+        height: 80%;
+        position: relative;
+        text-align: center;
+        top: 5%;
+        margin: 0 auto;
+        border: 1px solid gray;
+    }
+
+    #bubble {
+        display: inline-block;
+    }
+
+    #addendum {
+        position: absolute;
+        width: 80%;
+        top: 36%;
+        left: -14%;
+    }
+
+    #addendum p {
+        margin-top: -20%;
+    }
+
+    #phone {
+        position: absolute;
+        top: 75%;
+        left: 20%;
+        border: 1px solid gray;
+    }
+
+    #phone img {
+        position: absolute;
+        left: 0%;
+    }
+
+    #email {
+        position: absolute;
+        top: 85%;
+        left: 0%;
+        border: 1px solid blue;
+    }
+
+    #email img {
+        position: absolute;
+        left: 0%;
+    }
+
+    #contact_other {
+        position: absolute;
+        height: 50px;
+        width: 100px;
+        top: 85%;
+        left: 32.5%;
+    }
+
+    #github {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+
+    #linkedin {
+        position: absolute;
+        right: 0%;
+        top: 0%;
     }
 }
