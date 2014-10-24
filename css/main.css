@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-10-18 */
+/* galenscovell.github.io 2014-10-23 */
 
 
 html, body {
@@ -15,7 +15,8 @@ html, body {
 }
 
 
-/* Navbar */
+
+/* ------- Navbar ------- */
 #nav {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -53,7 +54,8 @@ html, body {
 }
 
 
-/* Top */
+
+/* ------- Top ------- */
 #top {
     text-align: center;
     height: 100%;
@@ -70,7 +72,6 @@ html, body {
     height: 100%;
     background: hsla(135, 78%, 46%, 0.8);
 }
-
 
 #top h1 {
     margin-top: 15%;
@@ -101,7 +102,7 @@ html, body {
 
 
 
-/* About */
+/* ------- About ------- */
 #about {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -183,7 +184,8 @@ html, body {
 }
 
 
-/* Middle Section */
+
+/* ------- Middle Section #1 ------- */
 #middle_1 {
     height: 400px;
     background: url('pics/middle2.jpg') no-repeat center fixed;
@@ -200,7 +202,7 @@ html, body {
 
 
 
-/* Skills */
+/* ------- Skills ------- */
 #skills {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -344,7 +346,7 @@ html, body {
 
 
 
-/* Skill bars */
+/* ------- Skill bars ------- */
 .bar {
     height: 20px;
     position: relative;
@@ -379,7 +381,7 @@ html, body {
 
 
 
-/* Second Middle Section */
+/* ------- Middle Section #2 ------- */
 #middle_2 {
     height: 400px;
     background: url('pics/middle3.jpg') no-repeat center fixed;
@@ -396,7 +398,7 @@ html, body {
 
 
 
-/* Projects */
+/* ------- Projects ------- */
 #projects {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -561,7 +563,7 @@ html, body {
 
 
 
-/* Contact */
+/* ------- Contact ------- */
 #contact {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -674,7 +676,7 @@ html, body {
 }
 
 
-
+/* ------- Screen width < 900px -------  */
 @media screen and (max-width: 900px) {
 
     #top h1 { margin-top: 30%; }
@@ -799,6 +801,7 @@ html, body {
 
 
 
+/* ------- Screen width < 600px -------  */
 @media screen and (max-width: 600px) {
     
     #about { height: 1700px; }
@@ -838,7 +841,8 @@ html, body {
 }
         
 
-        
+
+/* ------- Screen width < 500px -------  */
 @media screen and (max-width: 500px) {
 
     #nav li a { padding: 16px 8px; }
