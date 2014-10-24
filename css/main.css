@@ -121,6 +121,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin-bottom: -2%;
+    background: rgba(0, 100, 0, 0.2);
 }
 
 #about h4 {
@@ -220,7 +221,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin-bottom: -2%;
-    margin-top: 0%;
+    margin-top: 0.2%;
+    background: rgba(0, 100, 0, 0.2);
 }
 
 #skills h4 {
@@ -410,7 +412,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin-bottom: -2%;
-    margin-top: 0.5%;
+    margin-top: 1.2%;
+    background: rgba(0, 100, 0, 0.2);
 }
 
 #projects h5 {
@@ -437,8 +440,7 @@ html, body {
     width: 250px;
     background: url('pics/mastermind.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -449,8 +451,7 @@ html, body {
     width: 250px;
     background: url('pics/tictactoe.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -461,8 +462,7 @@ html, body {
     width: 250px;
     background: url('pics/hangman.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -472,8 +472,7 @@ html, body {
     width: 250px;
     background: url('pics/eventmanager.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -483,8 +482,7 @@ html, body {
     width: 250px;
     background: url('pics/webcalculator.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -494,8 +492,7 @@ html, body {
     width: 250px;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -505,8 +502,7 @@ html, body {
     width: 250px;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -516,8 +512,7 @@ html, body {
     width: 250px;
     background: url('pics/oldmaster4.jpg') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 100%;
-    border: 3px solid gray;
+    border-radius: 10%;
     transition: 0.1s;
 }
 
@@ -529,8 +524,8 @@ html, body {
 #project6:hover,
 #project7:hover,
 #project8:hover {
-    background-size: 110% 110%;
-    transition: 0.5s;
+    background-size: 115% 115%;
+    transition: 0.2s;
 }
 
 .button {
@@ -538,30 +533,30 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: hsla(135, 78%, 46%, 0.0);
-    transition: 0.5s;
-    border-radius: 100%;
+    border-radius: 10%;
+    transition: 0.3s;
 }
 
 .button:hover {
     background-color: hsla(135, 78%, 46%, 0.7);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #button_box {
     display: table-cell;
     vertical-align: middle;
-    border: 4px solid hsla(60, 7%, 96%, 0.0);
     font-size: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
     color: hsla(60, 7%, 96%, 0.0);
-    transition: 0.5s;
+    border-radius: 10%;
+    transition: 0.3s;
     text-decoration: none;
-    border-radius: 100%;
 }
 
 #button_box:hover {
-    border: 4px solid hsla(60, 7%, 96%, 0.7);
+    border: 6px solid rgba(0, 0, 0, 0.3);
     color: hsla(60, 7%, 96%, 1);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 
@@ -784,28 +779,47 @@ html, body {
 
     #contact_other {
         position: absolute;
-        height: 50px;
-        width: 100px;
-        top: 85%;
+        height: 100px;
+        width: 50px;
+        top: 15%;
     }
 
     #github {
         position: absolute;
-        left: 0%;
         top: 0%;
     }
 
     #linkedin {
         position: absolute;
         right: 0%;
-        top: 0%;
+        top: 50%;
     }
 
 }
 
 
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
+    
+    #about { height: 1700px; }
+    
+    #skills { height: 2200px; }
+    
+    #skills h3 { margin-top: -8%; }
+    
+    #skills2 { top: 33%; }
+    
+    #skills3 { top: 53%; }
+    
+    .other_skills { top: 66%; }
+    
+    #other_skill1,
+    #other_skill2,
+    #other_skill3,
+    #other_skill4 {
+        width: 200px;
+        height: 200px;
+    }
     
     #projects { height: 1100px; }
     
@@ -821,32 +835,17 @@ html, body {
         width: 200px;
     }
     
-    #other_skill1,
-    #other_skill2,
-    #other_skill3,
-    #other_skill4 {
-        width: 200px;
-        height: 200px;
-    {
 }
-        
         
 
-@media screen and (max-width: 450px) {
-    
-    #skills { height: 2500px; }
-    
-}
         
-        
-        
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     #nav li a { padding: 16px 8px; }
 
     #top h1 { margin-top: 50%; }
 
-    #about { height: 2000px; }
+    #about { height: 1800px; }
 
     #about h3 { margin-top: -10%; }
 
@@ -854,7 +853,7 @@ html, body {
         width: 95%;
         height: 200px;
         position: absolute;
-        top: 13%;
+        top: 10%;
         left: 3%;
     }
 
@@ -862,7 +861,7 @@ html, body {
         width: 95%;
         height: 200px;
         position: absolute;
-        top: 42%;
+        top: 40%;
         left: 3%;
     }
 
@@ -870,13 +869,13 @@ html, body {
         width: 95%;
         height: 200px;
         position: absolute;
-        top: 72%;
+        top: 71%;
         left: 3%;
     }
 
-    #skills { height: 3200px; }
+    #skills { height: 2400px; }
 
-    #skills h3 { margin-top: -36%; }
+    #skills h3 { margin-top: -21%; }
 
     #skills1 {
         width: 95%;
@@ -890,7 +889,7 @@ html, body {
         width: 95%;
         height: 100px;
         position: absolute;
-        top: 29%;
+        top: 32%;
         left: 3%;
     }
 
@@ -898,16 +897,25 @@ html, body {
         width: 95%;
         height: 100px;
         position: absolute;
-        top: 46%;
+        top: 52%;
         left: 3%;
     }
 
     .other_skills {
-        top: 60%;
+        top: 69%;
+    }
+    
+    #other_skill1,
+    #other_skill2,
+    #other_skill3,
+    #other_skill4 {
+        width: 150px;
+        height: 200px;
     }
 
     #projects { height: 2000px; }
 
-    #projects h3 { margin-top: -10%; }
+    #projects h3 { margin-top: -14%; }
+    
 
 }
