@@ -667,7 +667,7 @@ html, body {
     position: absolute;
     top: 10%;
     right: 5%;
-    width: 10%;
+    width: 12%;
     height: 200px;
 }
 
@@ -677,6 +677,9 @@ html, body {
     position: absolute;
     top: 0%;
     right: 0%;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 #linkedin {
@@ -685,7 +688,17 @@ html, body {
     position: absolute;
     top: 30%;
     right: 0%;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.6);
+    
 }
+
+#github:hover,
+#linkedin:hover {
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.9);
+}
+
 
 
 /* ------- Screen width < 900px -------  */
@@ -780,7 +793,7 @@ html, body {
 
     #contact_other {
         position: absolute;
-        height: 100px;
+        height: 120px;
         width: 50px;
         top: 15%;
     }
