@@ -335,7 +335,7 @@ html, body {
 #other_skill3 h5,
 #other_skill4 h5 {
     text-align: center;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid gray;
     padding-bottom: 10px;
     color: black;
 }
@@ -348,7 +348,6 @@ html, body {
 }
 
 #other_skill1 img,
-#other_skill2 img,
 #other_skill3 img,
 #other_skill4 img {
     height: 80px;
@@ -356,6 +355,14 @@ html, body {
     display: block;
     margin: 0 auto;
 }
+
+#other_skill2 img {
+    height: 80px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
