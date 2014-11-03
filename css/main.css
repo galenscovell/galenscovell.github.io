@@ -526,7 +526,7 @@ html, body {
     display: inline-block;
     height: 250px;
     width: 250px;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background: url('pics/snake.png') no-repeat center;
     background-size: 100% 100%;
     border-radius: 10%;
     transition: 0.1s;
