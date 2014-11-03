@@ -582,7 +582,7 @@ html, body {
 #button_box:hover {
     border: 6px solid rgba(0, 0, 0, 0.3);
     color: hsla(60, 7%, 96%, 1);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
