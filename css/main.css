@@ -223,7 +223,7 @@ html, body {
 #skills {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    height: 1000px;
+    height: 1200px;
     background: #F3F3F3;
     color: #1A1A1A;
     position: relative;
@@ -311,7 +311,7 @@ html, body {
 
 .other_skills {
     position: relative;
-    top: 55%;
+    top: 50%;
     width: 80%;
     margin: 0 auto;
     padding-top: 20px;
@@ -324,7 +324,8 @@ html, body {
 #other_skill1,
 #other_skill2,
 #other_skill3,
-#other_skill4 {
+#other_skill4,
+#other_skill5 {
     display: inline-block;
     width: 200px;
     margin-bottom: 30px;
@@ -333,7 +334,8 @@ html, body {
 #other_skill1 h5,
 #other_skill2 h5,
 #other_skill3 h5,
-#other_skill4 h5 {
+#other_skill4 h5,
+#other_skill5 h5 {
     text-align: center;
     border-bottom: 3px solid gray;
     padding-bottom: 10px;
@@ -343,22 +345,24 @@ html, body {
 #other_skill1 p,
 #other_skill2 p,
 #other_skill3 p,
-#other_skill4 p {
+#other_skill4 p,
+#other_skill5 p {
     text-align: center;
 }
 
 #other_skill1 img,
-#other_skill3 img,
-#other_skill4 img {
+#other_skill4 img,
+#other_skill5 img {
     height: 80px;
     width: 80px;
     display: block;
     margin: 0 auto;
 }
 
-#other_skill2 img {
+#other_skill2 img,
+#other_skill3 img {
     height: 80px;
-    width: 100px;
+    width: 110px;
     display: block;
     margin: 0 auto;
 }
@@ -738,31 +742,31 @@ html, body {
         left: 3%;
     }
 
-    #skills { height: 1900px; }
+    #skills { height: 2200px; }
 
     #skills1 {
         width: 95%;
         height: 200px;
-        top: 9%;
+        top: 8%;
         left: 3%;
     }
 
     #skills2 {
         width: 95%;
         height: 200px;
-        top: 30%;
+        top: 28%;
         left: 3%;
     }
 
     #skills3 {
         width: 95%;
         height: 200px;
-        top: 52%;
+        top: 48%;
         left: 3%;
     }
 
     .other_skills {
-        top: 66%;
+        top: 62%;
     }
     
     #projects { height: 1300px; }
@@ -840,16 +844,17 @@ html, body {
     
     #skills1 { top: 8%; }
     
-    #skills2 { top: 26%; }
+    #skills2 { top: 27%; }
     
-    #skills3 { top: 45%; }
+    #skills3 { top: 46%; }
     
     .other_skills { top: 60%; }
     
     #other_skill1,
     #other_skill2,
     #other_skill3,
-    #other_skill4 {
+    #other_skill4,
+    #other_skill5 {
         width: 200px;
         height: 200px;
     }
@@ -892,7 +897,7 @@ html, body {
 
     #about3 { top: 68%; }
 
-    #skills { height: 2200px; }
+    #skills { height: 2300px; }
 
     #skills h3 { 
         font-size: 22px;
@@ -915,13 +920,14 @@ html, body {
     }
 
     .other_skills {
-        top: 63%;
+        top: 62%;
     }
     
     #other_skill1,
     #other_skill2,
     #other_skill3,
-    #other_skill4 {
+    #other_skill4,
+    #other_skill5 {
         width: 150px;
         height: 200px;
     }
@@ -950,7 +956,7 @@ html, body {
 
     #about3 { top: 70%; }
 
-    #skills { height: 2900px; }
+    #skills { height: 3200px; }
 
     #skills h3 { 
         font-size: 22px;
@@ -959,27 +965,28 @@ html, body {
 
     #skills1 {
         height: 100px;
-        top: 6%;
+        top: 5%;
     }
 
     #skills2 {
         height: 100px;
-        top: 25%;
+        top: 23%;
     }
 
     #skills3 {
         height: 100px;
-        top: 44%;
+        top: 41%;
     }
 
     .other_skills {
-        top: 59%;
+        top: 55%;
     }
     
     #other_skill1,
     #other_skill2,
     #other_skill3,
-    #other_skill4 {
+    #other_skill4,
+    #other_skill5 {
         width: 150px;
         height: 200px;
     }
