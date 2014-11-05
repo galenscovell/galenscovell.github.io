@@ -17,13 +17,19 @@ html, body {
 
 
 /* ------- Navbar ------- */
+
+#nav-wrap {
+    width: 100%;
+    position: fixed;
+}
+
 #nav {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     float: left;
     background-color: hsla(60, 10%, 5%, 0.85);
     border-top: solid green 3px;
-    position: fixed;
+    position: absolute;
     top: 0px;
     z-index: 10;
 }
@@ -74,15 +80,20 @@ html, body {
 }
 
 #top h1 {
-    margin-top: 8%;
+    margin-top: 12%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
     font-size: 36px;
+    letter-spacing: 3px;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 #top h3 {
     margin-top: -2%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
     font-size: 21px;
+    letter-spacing: 3px;
 }
 
 #top a {
