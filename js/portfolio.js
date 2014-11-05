@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
 
 
-    // Nav hide on scroll down
+    // Nav show on scroll down
     var previousScroll = 0;
     var headerOffset = $('#nav').height();
 
@@ -28,8 +28,6 @@ $(document).ready(function(){
         if (currentScroll > headerOffset) {
             if (currentScroll > previousScroll) {
                 $('#nav-wrap').slideDown(750);
-            } else {
-                $('#nav-wrap').slideUp(750);
             }
         }
         previousScroll = currentScroll;
