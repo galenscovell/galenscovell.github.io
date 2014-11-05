@@ -71,7 +71,7 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative
+    position: relative;
 }
 
 #top .tint {
@@ -134,6 +134,7 @@ html, body {
     background-color: #F3F3F3;
     color: #1A1A1A;
     position: relative;
+    z-index: -1;
 }
 
 #about h2 {
@@ -239,6 +240,7 @@ html, body {
     color: #1A1A1A;
     position: relative;
     width: 100%;
+    z-index: -1;
 }
 
 #skills h2 {
@@ -442,6 +444,7 @@ html, body {
     color: #1A1A1A;
     width: 100%;
     position: relative;
+    z-index: -1;
 }
 
 #projects h3 {
