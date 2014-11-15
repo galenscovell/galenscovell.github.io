@@ -217,7 +217,7 @@ html, body {
 /* ------- Middle Section #1 ------- */
 #middle_1 {
     height: 400px;
-    background: url('pics/middle2.jpg') no-repeat center fixed;
+    background: url('pics/middle.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -424,7 +424,7 @@ html, body {
 /* ------- Middle Section #2 ------- */
 #middle_2 {
     height: 400px;
-    background: url('pics/middle3.jpg') no-repeat center fixed;
+    background: url('pics/bottom.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
