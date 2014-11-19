@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-10-27 */
+/* galenscovell.github.io 2014-11-18 */
 
 
 html, body {
@@ -557,7 +557,7 @@ html, body {
     display: inline-block;
     height: 250px;
     width: 250px;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background: url('pics/grid.png') no-repeat center;
     background-size: 100% 100%;
     border-radius: 10%;
     transition: 0.1s;
