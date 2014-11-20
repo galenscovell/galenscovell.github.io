@@ -563,6 +563,46 @@ html, body {
     transition: 0.1s;
 }
 
+#project9 {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    transition: 0.1s;
+}
+
+#project10 {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    transition: 0.1s;
+}
+
+#project11 {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    transition: 0.1s;
+}
+
+#project12 {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background: url('pics/oldmaster4.jpg') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    transition: 0.1s;
+}
+
 #project1:hover,
 #project2:hover,
 #project3:hover,
@@ -570,7 +610,11 @@ html, body {
 #project5:hover,
 #project6:hover,
 #project7:hover,
-#project8:hover {
+#project8:hover,
+#project9:hover,
+#project10:hover,
+#project11:hover,
+#project12:hover {
     background-size: 115% 115%;
     transition: 0.2s;
 }
@@ -734,6 +778,19 @@ html, body {
 
 
 
+
+
+/* ------- Screen width < 1145px -------  */
+@media screen and (max-width: 1145px) {
+
+    #projects { height: 1200px; }
+
+}
+
+
+
+
+
 /* ------- Screen width < 900px -------  */
 @media screen and (max-width: 900px) {
 
@@ -786,7 +843,7 @@ html, body {
         top: 64%;
     }
     
-    #projects { height: 1300px; }
+    #projects { height: 1200px; }
 
     #contact { height: 400px; }
 
@@ -846,6 +903,17 @@ html, body {
 
 
 
+
+/* ------- Screen width < 860px -------  */
+@media screen and (max-width: 860px) {
+
+    #projects { height: 1700px; }
+
+}
+
+
+
+
 /* ------- Screen width < 600px -------  */
 @media screen and (max-width: 600px) {
     
@@ -876,7 +944,7 @@ html, body {
         height: 200px;
     }
     
-    #projects { height: 1100px; }
+    #projects { height: 1400px; }
     
     #project1,
     #project2,
@@ -885,7 +953,11 @@ html, body {
     #project5,
     #project6,
     #project7,
-    #project8 {
+    #project8,
+    #project9,
+    #project10,
+    #project11,
+    #project12 {
         height: 200px;
         width: 200px;
     }
@@ -964,8 +1036,6 @@ html, body {
         height: 200px;
     }
 
-    #projects { height: 2000px; }
-
     #projects h3 { 
         font-size: 22px;
         top: 45px;
@@ -973,6 +1043,17 @@ html, body {
     
 
 }
+
+
+
+
+/* ------- Screen width < 465px -------  */
+@media screen and (max-width: 465px) {
+
+    #projects { height: 2640px; }
+
+}
+
 
 
 
@@ -1022,8 +1103,6 @@ html, body {
         width: 150px;
         height: 200px;
     }
-
-    #projects { height: 2000px; }
 
     #projects h3 { 
         font-size: 22px;
