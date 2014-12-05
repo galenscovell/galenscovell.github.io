@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-11-18 */
+/* galenscovell.github.io 2014-12-05 */
 
 
 html, body {
@@ -387,8 +387,8 @@ html, body {
 
 div[id*="projects_col_"] {
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 225px;
     margin: 6px;
 }
 
@@ -685,6 +685,13 @@ div[id*="projects_col_"] {
 
     .skills_col_1-3 {
         width: 75%;
+    }
+
+    div[id*="projects_col_"] {
+        display: inline-block;
+        width: 240px;
+        height: 180px;
+        margin: 6px;
     }
 }
 
