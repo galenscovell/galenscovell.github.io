@@ -128,10 +128,10 @@ html, body {
 
 /* ------- About ------- */
 #about {
-    text-align: left;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     height: 800px;
-    background-color: #F3F3F3;
+    background: #F3F3F3;
     color: #1A1A1A;
     position: relative;
     z-index: -1;
@@ -148,7 +148,7 @@ html, body {
     font-weight: normal;
     position: absolute;
     width: 100%;
-    top: 20px;
+    top: 30px;
     margin-bottom: 0;
     background: rgba(0, 100, 0, 0.2);
 }
@@ -194,7 +194,8 @@ html, body {
 #about1 #text,
 #about2 #text,
 #about3 #text {
-    border-top: 4px solid white;
+    border-top: 3px solid gray;
+    border-radius: 10px 10px 0px 0px;
     position: relative;
     top: 10%;
     margin-left: 15px;
@@ -236,7 +237,6 @@ html, body {
 #skills {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    height: 1200px;
     background: #F3F3F3;
     color: #1A1A1A;
     position: relative;
@@ -261,163 +261,75 @@ html, body {
 }
 
 #skills h4 {
-    font-size: 15px;
+    font-size: 16px;
+    border-top: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 6px;
 }
 
 #skills h5 {
-    margin-top: 0;
+    margin: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: normal;
     color: gray;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
 }
 
-#skills p {
-    font-size: 16px;
-    color: gray;
-}
-
-#skills1 {
-    width: 30%;
-    height: 100px;
-    position: absolute;
-    left: 4%;
-}
-
-#skills2 {
-    width: 30%;
-    height: 100px;
-    position: absolute;
-    left: 35%;
-}
-
-#skills3 {
-    width: 30%;
-    height: 100px;
-    position: absolute;
-    left: 66%;
-}
-
-#skills1 #text,
-#skills2 #text,
-#skills3 #text {
-    border-top: solid white 3px;
-    position: relative;
-    top: 10%;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-#skills1 img {
-    height: 100px;
-    width: 175px;
-    display: block;
-    margin: 0 auto;
-}
-
-#skills2 img,
-#skills3 img {
-    height: 100px;
-    width: 100px;
-    display: block;
-    margin: 0 auto;
-}
-
-.other_skills {
-    position: relative;
-    top: 50%;
-    width: 80%;
+#skills_grid {
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 1px #000;
-    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 60px;
 }
 
-#other_skill1,
-#other_skill2,
-#other_skill3,
-#other_skill4 {
+.skills_row {
+    width: 100%;
     display: inline-block;
-    width: 200px;
-    padding-bottom: 30px;
+    margin: 20px 0px;
 }
 
-#other_skill1 h5,
-#other_skill2 h5,
-#other_skill3 h5,
-#other_skill4 h5 {
-    text-align: center;
-    border-bottom: 3px solid gray;
-    padding-bottom: 10px;
-    color: black;
+.skills_col_1-3 {
+    display: inline-block;
+    width: 26%;
+    margin: 10px 20px;
+    padding-top: 10px;
 }
 
-#other_skill1 p,
-#other_skill2 p,
-#other_skill3 p,
-#other_skill4 p {
-    text-align: center;
+.skills_row img {
+    height: 125px;
+    width: 125px;
 }
 
-#other_skill1 img,
-#other_skill4 img {
-    height: 80px;
-    width: 80px;
-    display: block;
-    margin: 0 auto;
+#skills_grid div[id*="row"] {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 6px 6px;
+    padding-bottom: 20px;
 }
-
-#other_skill2 img {
-    height: 60px;
-    width: 140px;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 10px;
-}
-
-#other_skill3 img {
-    height: 80px;
-    width: 110px;
-    display: block;
-    margin: 0 auto;
-}
-
 
 
 
 /* ------- Skill bars ------- */
 .bar {
-    height: 20px;
+    height: 30px;
     position: relative;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    background: #379051;
+    margin: 0px 20px;
+    border-radius: 4px;
 }
 
 .bar span {
     display: block;
     height: 100%;
-    border-radius: 3px;
-    background-color: hsla(137, 72%, 40%, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     color: hsla(207, 100%, 91%, 0);
     position: relative;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
-}
-
-.bar span:hover {
-    background-color: hsla(137, 72%, 50%, 0.8);
-    color: hsla(207, 100%, 91%, 1);
-    transition: 0.5s;
-    cursor: default;
+    border-radius: 4px 0px 0px 4px;
 }
 
 
@@ -816,31 +728,9 @@ html, body {
         left: 3%;
     }
 
-    #skills { height: 2000px; }
-
-    #skills1 {
-        width: 95%;
-        height: 200px;
-        top: 10%;
-        left: 3%;
-    }
-
-    #skills2 {
-        width: 95%;
-        height: 200px;
-        top: 30%;
-        left: 3%;
-    }
-
-    #skills3 {
-        width: 95%;
-        height: 200px;
-        top: 50%;
-        left: 3%;
-    }
-
-    .other_skills {
-        top: 64%;
+    .skills_col_1-3 {
+        width: 28%;
+        margin: 0px 10px;
     }
     
     #projects { height: 1200px; }
@@ -925,25 +815,6 @@ html, body {
     
     #about3 { top: 70%; }
     
-    #skills { height: 2000px; }
-    
-    #skills1 { top: 8%; }
-    
-    #skills2 { top: 31%; }
-    
-    #skills3 { top: 52%; }
-    
-    .other_skills { top: 66%; }
-    
-    #other_skill1,
-    #other_skill2,
-    #other_skill3,
-    #other_skill4,
-    #other_skill5 {
-        width: 200px;
-        height: 200px;
-    }
-    
     #projects { height: 1400px; }
     
     #project1,
@@ -964,21 +835,6 @@ html, body {
     
 }
 
-/* ------- Screen width < 580px -------  */
-@media screen and (max-width: 520px) {
-
-    #skills { height: 2500px; }
-
-    #skills1 { top: 7%; }
-    
-    #skills2 { top: 25%; }
-    
-    #skills3 { top: 43%; }
-    
-    .other_skills { top: 55%; }
-
-}
-        
 
 
 /* ------- Screen width < 500px -------  */
@@ -1001,39 +857,13 @@ html, body {
 
     #about3 { top: 68%; }
 
-    #skills { height: 2300px; }
-
-    #skills h3 { 
-        font-size: 22px;
-        top: 45px;
-    }
-
-    #skills1 {
-        height: 100px;
-        top: 8%;
-    }
-
-    #skills2 {
-        height: 100px;
-        top: 28%;
-    }
-
-    #skills3 {
-        height: 100px;
-        top: 48%;
-    }
-
-    .other_skills {
-        top: 62%;
-    }
-    
-    #other_skill1,
-    #other_skill2,
-    #other_skill3,
-    #other_skill4,
-    #other_skill5 {
+    #skills_grid img {
+        height: 150px;
         width: 150px;
-        height: 200px;
+    }
+
+    .skills_col_1-3 {
+        width: 75%;
     }
 
     #projects h3 { 
@@ -1068,41 +898,6 @@ html, body {
     #about2 { top: 40%; }
 
     #about3 { top: 72%; }
-
-    #skills { height: 3000px; }
-
-    #skills h3 { 
-        font-size: 22px;
-        top: 45px;
-    }
-
-    #skills1 {
-        height: 100px;
-        top: 5%;
-    }
-
-    #skills2 {
-        height: 100px;
-        top: 23%;
-    }
-
-    #skills3 {
-        height: 100px;
-        top: 41%;
-    }
-
-    .other_skills {
-        top: 58%;
-    }
-    
-    #other_skill1,
-    #other_skill2,
-    #other_skill3,
-    #other_skill4,
-    #other_skill5 {
-        width: 150px;
-        height: 200px;
-    }
 
     #projects h3 { 
         font-size: 22px;
