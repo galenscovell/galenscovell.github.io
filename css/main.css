@@ -471,125 +471,102 @@ div[id*="projects_col_"] {
 #contact {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    height: 225px;
     width: 100%;
     background: #272727;
     color: gray;
     position: absolute;
 }
 
-#contact_details {
-    position: absolute;
-    top: 6%;
-    right: 22.5%;
-    width: 50%;
-    height: 80%;
+#contact_grid {
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
-#summary h2 {
-    color: white;
-    font-weight: normal;
-    font-size: 21px
+#contact_row {
+    margin-top: 10px;
+    width: 100%;
 }
 
-#summary p {
-    font-size: 16px;
-    margin-top: -2%
+#contact_col_1 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
 }
 
 #bubble {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
+    border: 6px solid #7CBE6C;
     border-radius: 100%;
-    position: absolute;
-    left: 2.5%;
-    top: 5%;
-    box-shadow: 1px 1px 2px #000;
-    border: 6px solid #f3f3f3;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
 }
 
-#email {
-    width: 230px;
-    height: 30px;
-    top: 60%;
-    position: absolute;
-}
-
-#email img {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-}
-
-#email p {
-    text-align: right;
+#external_links {
+    width: 90%;
+    padding: 10px;
     margin: 0 auto;
 }
 
-#email a {
+#external_links img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#external_links img:hover {
+    border: 3px solid rgba(250, 250, 250, 0.8);
+    transition: 0.2s;
+}
+
+#contact_col_2 {
+    display: inline-block;
+    margin-top: 20px;
+    width: 72%;
+    vertical-align: top;
+    text-align: left;
+    border-right: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+#contact_col_2 h2 {
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: normal;
+    color: white;
+}
+
+#contact_col_2 p {
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+}
+
+#email_phone {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#email_phone img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#email_phone p {
+    font-size: 14px;
+}
+
+#email_phone a {
     text-decoration: none;
     color: gray;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-#email a:hover{
+#email_phone a:hover {
     color: white;
-    transition: 0.5s;
-}
-
-#phone {
-    width: 140px;
-    height: 30px;
-    top: 82%;
-    position: absolute;
-}
-
-#phone img {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-}
-
-#phone p {
-    text-align: right;
-    margin: 0 auto;
-}
-
-#contact_other {
-    position: absolute;
-    top: 10%;
-    right: 5%;
-    width: 12%;
-    height: 200px;
-}
-
-#github {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    opacity: 0.8;
-    border-radius: 5px;
-    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.6);
-}
-
-#linkedin {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 30%;
-    right: 0%;
-    opacity: 0.8;
-    border-radius: 5px;
-    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.6);
-    
-}
-
-#github:hover,
-#linkedin:hover {
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.9);
+    transition: 0.2s;
 }
 
 
@@ -601,6 +578,16 @@ div[id*="projects_col_"] {
         width: 90%;
     }
 
+    #contact_col_1 {
+        width: 80%;
+    }
+
+    #contact_col_2 {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 20px;
+        border-left: 3px solid rgba(0, 0, 0, 0.3);
+    }
 }
 
 
@@ -611,60 +598,6 @@ div[id*="projects_col_"] {
     .skills_col_1-3 {
         width: 28%;
         margin: 0px 10px;
-    }
-
-    #contact { height: 400px; }
-
-    #contact_details {
-        width: 80%;
-        height: 40%;
-        position: relative;
-        right: 0%;
-        top: 50%;
-    }
-
-    #bubble {
-        left: 10%;
-        height: 175px;
-        width: 175px;
-    }
-    
-    #phone {
-        position: absolute;
-        bottom: 10%;
-        left: 0%;
-    }
-    
-    #phone img {
-        left: 0%;
-    }
-
-    #email {
-        position: absolute;
-        bottom: 20%;
-        left: 0%;
-    }
-    
-    #email img {
-        left: 0%;
-    }
-
-    #contact_other {
-        position: absolute;
-        height: 120px;
-        width: 50px;
-        top: 15%;
-    }
-
-    #github {
-        position: absolute;
-        top: 0%;
-    }
-
-    #linkedin {
-        position: absolute;
-        right: 0%;
-        top: 50%;
     }
 
 }
