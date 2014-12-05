@@ -168,6 +168,7 @@ html, body {
 
 #about_grid {
     width: 100%;
+    margin: 0 auto;
     padding-bottom: 60px;
 }
 
@@ -337,11 +338,11 @@ html, body {
 
 
 
+
 /* ------- Projects ------- */
 #projects {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    height: 1000px;
     background: #F3F3F3;
     color: #1A1A1A;
     width: 100%;
@@ -373,149 +374,67 @@ html, body {
     font-size: 21px;
 }
 
-.project_grid {
-    height: 800px;
-    width: 90%;
-    margin: 0 auto 0 auto;
+#projects_grid {
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
+    padding-bottom: 60px;
 }
 
-#project1 {
+.projects_row {
+    width: 100%;
+}
+
+div[id*="projects_col_"] {
     display: inline-block;
-    height: 250px;
     width: 250px;
+    height: 250px;
+    margin: 6px;
+}
+
+#projects_col_1 {
     background: url('pics/mastermind.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project2 {
-    display: inline-block;
-    left: 36%;
-    height: 250px;
-    width: 250px;
+#projects_col_2 {
     background: url('pics/tictactoe.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project3 {
-    display: inline-block;
-    right: 0%;
-    height: 250px;
-    width: 250px;
+#projects_col_3 {
     background: url('pics/hangman.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project4 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_4 {
     background: url('pics/eventmanager.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project5 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_5 {
     background: url('pics/webcalculator.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project6 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_6 {
     background: url('pics/etchasketch.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project7 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_7 {
     background: url('pics/snake.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project8 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_8 {
     background: url('pics/grid.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
 }
 
-#project9 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
+#projects_col_9 {
     background: url('pics/microblogger.png') no-repeat center;
     background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
-}
-
-#project10 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
-}
-
-#project11 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
-}
-
-#project12 {
-    display: inline-block;
-    height: 250px;
-    width: 250px;
-    background: url('pics/oldmaster4.jpg') no-repeat center;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    transition: 0.1s;
-}
-
-#project1:hover,
-#project2:hover,
-#project3:hover,
-#project4:hover,
-#project5:hover,
-#project6:hover,
-#project7:hover,
-#project8:hover,
-#project9:hover,
-#project10:hover,
-#project11:hover,
-#project12:hover {
-    background-size: 115% 115%;
-    transition: 0.2s;
 }
 
 .button {
@@ -523,29 +442,26 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: hsla(135, 78%, 46%, 0.0);
-    border-radius: 10%;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .button:hover {
     background-color: hsla(135, 78%, 46%, 0.7);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
-#button_box {
+.button_text {
     display: table-cell;
     vertical-align: middle;
-    font-size: 24px;
-    border: 1px solid rgba(0, 0, 0, 0.0);
+    font-size: 26px;
     color: hsla(60, 7%, 96%, 0.0);
-    border-radius: 10%;
-    transition: 0.3s;
+    transition: 0.2s;
     text-decoration: none;
 }
 
-#button_box:hover {
-    border: 6px solid rgba(0, 0, 0, 0.3);
+.button_text:hover {
     color: hsla(60, 7%, 96%, 1);
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.7);
     transition: 0.1s;
 }
 
@@ -590,7 +506,7 @@ html, body {
     left: 2.5%;
     top: 5%;
     box-shadow: 1px 1px 2px #000;
-    border: 6px solid gray;
+    border: 6px solid #f3f3f3;
 }
 
 #email {
@@ -678,8 +594,6 @@ html, body {
 
 
 
-
-
 /* ------- Screen width < 1000px -------  */
 @media screen and (max-width: 1000px) {
 
@@ -691,8 +605,6 @@ html, body {
 
 
 
-
-
 /* ------- Screen width < 900px -------  */
 @media screen and (max-width: 900px) {
 
@@ -700,8 +612,6 @@ html, body {
         width: 28%;
         margin: 0px 10px;
     }
-    
-    #projects { height: 1200px; }
 
     #contact { height: 400px; }
 
