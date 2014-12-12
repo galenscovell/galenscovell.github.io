@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
     // Smooth scroll on nav click
     $('a[href^="#"]').on('click',function (event) {
@@ -17,29 +17,21 @@ $(document).ready(function(){
     });
 
 
-    // Nav show on scroll down
-    var previousScroll = 0;
-    var headerOffset = $('#nav').height();
-
-    $('#nav-wrap').height($('#nav').height());
-    $('#nav-wrap').slideUp(0);
-    $(window).scroll(function() {
-        var currentScroll = $(this).scrollTop();
-        if (currentScroll > headerOffset) {
-            if (currentScroll > previousScroll) {
-                $('#nav-wrap').slideDown(750);
-            }
-        }
-        previousScroll = currentScroll;
-    });
-
-
-    // Fade in effect when objects reached on scroll
-    $(window).on("scroll", function() {
-        if ($("html").scrollTop() > $("#skills").scrollTop()) {
-            alert("Yes?");
-            $('.skills_row img').fadeIn(2000);
-        }
-    });
-
 }); 
+
+
+// Fade in effect when objects reached on scroll
+$(window).scroll(function(event) {
+    $('.skills_row div').each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+            el.animate({'opacity':'1'},1000);
+        }
+    });
+    $('.projects_row div').each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+            el.animate({'opacity':'1'},1000);
+        }
+    });
+});
