@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-12-05 */
+/* galenscovell.github.io 2014-12-12 */
 
 
 html, body {
@@ -10,39 +10,34 @@ html, body {
 }
 
 #offset {
-    height: 100px;
+    height: 50px;
     width: 100%;
 }
 
 
 
 /* ------- Navbar ------- */
-
-#nav-wrap {
-    width: 100%;
-    position: fixed;
-}
-
 #nav {
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
+    width: 120px;
+    height: 100%;
     float: left;
     background-color: hsla(60, 10%, 5%, 0.85);
     border-top: solid green 3px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 10;
+    box-shadow: 0px 1px 3px #000;
 }
 
 #nav ul {
-    width: 100%;
     list-style: none;
-    margin: 0 auto;
     padding: 0; 
 }
 
 #nav li {
     float: left; 
+    width: 100%;
 }
 
 #nav li a {
@@ -61,12 +56,23 @@ html, body {
 
 
 
+
+/* ------- Main Container ------- */
+#main {
+  position: absolute;
+  width: calc(100% - 120px);
+  margin-left: 120px;
+}
+
+
+
+
 /* ------- Top ------- */
 #top {
     text-align: center;
-    height: 100%;
+    height: 100vh;
     color: hsla(135, 78%, 100%, 0.8);
-    background: url('pics/top.JPG') no-repeat center fixed;
+    background: url('pics/top.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,7 +86,7 @@ html, body {
 }
 
 #top h1 {
-    margin-top: 100px;
+    margin-top: 200px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 36px;
@@ -133,7 +139,6 @@ html, body {
     background: #F3F3F3;
     color: #1A1A1A;
     position: relative;
-    z-index: -1;
 }
 
 #about h2 {
@@ -148,7 +153,7 @@ html, body {
     font-weight: normal;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 0;
     margin-bottom: 0;
     background: rgba(0, 100, 0, 0.2);
 }
@@ -159,7 +164,7 @@ html, body {
 }
 
 #about h5 {
-    margin: 4px 10px;
+    margin: 20px 10px;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
@@ -228,7 +233,6 @@ html, body {
     color: #1A1A1A;
     position: relative;
     width: 100%;
-    z-index: -1;
 }
 
 #skills h2 {
@@ -242,7 +246,7 @@ html, body {
     font-weight: normal;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 0;
     margin-bottom: 0;
     background: rgba(0, 100, 0, 0.2);
 }
@@ -349,7 +353,6 @@ html, body {
     color: #1A1A1A;
     width: 100%;
     position: relative;
-    z-index: -1;
 }
 
 #projects h3 {
@@ -359,13 +362,13 @@ html, body {
     font-weight: normal;
     position: absolute;
     width: 100%;
-    top: 30px;
+    top: 0;
     margin-bottom: 0;
     background: rgba(0, 100, 0, 0.2);
 }
 
 #projects h5 {
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
     font-size: 18px;
     font-weight: normal;
@@ -617,9 +620,51 @@ div[id*="projects_col_"] {
 /* ------- Screen width < 500px -------  */
 @media screen and (max-width: 500px) {
 
-    #nav li a { padding: 16px 8px; }
+    #nav {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #nav ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #nav li {
+        width: 65px;
+    }
+
+    #nav li a {
+        text-align: center;
+        padding: 14px 0;
+    }
+
+    #main {
+        width: 100%;
+        margin: 0;
+    }
 
     #top h3 { font-size: 18px; }
+
+    #about h3,
+    #skills h3,
+    #projects h3 {
+        top: 40px;
+        font-size: 21px;
+    }
+
+    #about h5 {
+        margin-top: 60px;
+    }
+
+    #skills h5 {
+        margin-top: 30px;
+    }
+
+    #projects h5 {
+        margin-top: 60px;
+    }
 
     #skills_grid img {
         height: 150px;
