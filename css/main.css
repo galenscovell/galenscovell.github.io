@@ -72,7 +72,7 @@ html, body {
     text-align: center;
     height: 100vh;
     color: hsla(135, 78%, 100%, 0.8);
-    background: url('pics/top.jpg') no-repeat center fixed;
+    background: url('pics/top.JPG') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

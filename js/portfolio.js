@@ -28,6 +28,7 @@ $(window).scroll(function(event) {
             el.animate({'opacity':'1'},1000);
         }
     });
+
     $('.projects_row div').each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
