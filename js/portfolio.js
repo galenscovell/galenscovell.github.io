@@ -34,4 +34,12 @@ $(document).ready(function(){
     });
 
 
-});
+    // Fade in effect when objects reached on scroll
+    $(window).on("scroll", function() {
+        if ($("html").scrollTop() > $("#skills").scrollTop()) {
+            alert("Yes?");
+            $('.skills_row img').fadeIn(2000);
+        }
+    });
+
+}); 

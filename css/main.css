@@ -296,6 +296,10 @@ html, body {
     padding-bottom: 20px;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 
 
 /* ------- Skill bars ------- */
