@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-12-14 */
+/* galenscovell.github.io 2014-12-18 */
 
 
 html, body {
@@ -548,33 +548,27 @@ div[id*="projects_col_"] {
 }
 
 #contact_col_2 p {
-    margin: 0;
+    margin: 10px;
     font-size: 16px;
     color: gray;
 }
 
-#email_phone {
+#email {
     width: 100%;
     margin: 0 auto;
 }
 
-#email_phone img {
-    margin-top: 10px;
-    width: 40px;
-    height: 40px;
-}
-
-#email_phone p {
+#email p {
     font-size: 14px;
 }
 
-#email_phone a {
+#email a {
     text-decoration: none;
     color: gray;
     transition: 0.3s;
 }
 
-#email_phone a:hover {
+#email a:hover {
     color: white;
     transition: 0.2s;
 }
