@@ -443,6 +443,11 @@ div[id*="projects_col_"] {
     background-size: 100% 100%;
 }
 
+#projects_col_12 {
+    background: url('pics/wator.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
 .button {
     display: table;
     height: 100%;
