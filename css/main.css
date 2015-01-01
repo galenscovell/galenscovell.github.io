@@ -389,62 +389,62 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_1 {
-    background: url('pics/mastermind.png') no-repeat center;
+    background: url('pics/wator.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_2 {
-    background: url('pics/tictactoe.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_3 {
-    background: url('pics/hangman.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_4 {
-    background: url('pics/eventmanager.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_5 {
-    background: url('pics/webcalculator.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_6 {
-    background: url('pics/etchasketch.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_7 {
-    background: url('pics/snake.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_8 {
-    background: url('pics/grid.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_9 {
     background: url('pics/microblogger.png') no-repeat center;
     background-size: 100% 100%;
 }
 
-#projects_col_10 {
+#projects_col_3 {
     background: url('pics/weathered.png') no-repeat center;
     background-size: 100% 100%;
 }
 
-#projects_col_11 {
+#projects_col_4 {
+    background: url('pics/snake.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_5 {
+    background: url('pics/etchasketch.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_6 {
     background: url('pics/coloroclock.png') no-repeat center;
     background-size: 100% 100%;
 }
 
+#projects_col_7 {
+    background: url('pics/mastermind.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_8 {
+    background: url('pics/tictactoe.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_9 {
+    background: url('pics/hangman.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_10 {
+    background: url('pics/webcalculator.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+#projects_col_11 {
+    background: url('pics/eventmanager.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
 #projects_col_12 {
-    background: url('pics/wator.png') no-repeat center;
+    background: url('pics/grid.png') no-repeat center;
     background-size: 100% 100%;
 }
 
