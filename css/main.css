@@ -399,7 +399,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_3 {
-    background: url('pics/weathered.png') no-repeat center;
+    background: url('pics/cgol.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -414,7 +414,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_6 {
-    background: url('pics/coloroclock.png') no-repeat center;
+    background: url('pics/weathered.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -444,7 +444,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_12 {
-    background: url('pics/grid.png') no-repeat center;
+    background: url('pics/coloroclock.png') no-repeat center;
     background-size: 100% 100%;
 }
 
