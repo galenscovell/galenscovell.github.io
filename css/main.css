@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2015-01-01 */
+/* galenscovell.github.io 01-02-2015 */
 
 
 html, body {
@@ -386,6 +386,7 @@ div[id*="projects_col_"] {
     margin: 6px;
     opacity: 0;
     border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 #projects_col_1 {
