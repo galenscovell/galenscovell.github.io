@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 2014-12-18 */
+/* galenscovell.github.io 2015-01-01 */
 
 
 html, body {
@@ -558,25 +558,49 @@ div[id*="projects_col_"] {
     color: gray;
 }
 
-#email {
-    width: 100%;
-    margin: 0 auto;
+#contact_form input[type=email] {
+    float: right;
+    clear: both;
+    width: 70%;
+    height: 24px;
+    margin: 4px 0;
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    padding: 4px;
 }
 
-#email p {
-    font-size: 14px;
+#contact_form textarea {
+    float: right;
+    clear: both;
+    width: 70%;
+    height: 60px;
+    margin: 4px 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Open sans', sans-serif;
+    padding: 8px 4px;
 }
 
-#email a {
-    text-decoration: none;
-    color: gray;
-    transition: 0.3s;
+#contact_form button {
+    position: relative;
+    top: 0;
+    background: #3498db;
+    float: right;
+    clear: both;
+    width: 100px;
+    height: 40px;
+    margin: 4px 0;
+    border: 0px solid rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 2px;
 }
 
-#email a:hover {
-    color: white;
-    transition: 0.2s;
+#contact_form button:hover {
+    background: #52B3D9;
 }
+
 
 
 
@@ -597,6 +621,14 @@ div[id*="projects_col_"] {
         margin-bottom: 20px;
         border-left: 3px solid rgba(0, 0, 0, 0.3);
         padding-right: 0;
+    }
+
+    #contact_form input[type=email],
+    #contact_form textarea,
+    #contact_form button {
+        float: none;
+        display: inline-block;
+        margin: 4px 40px;
     }
 }
 
@@ -645,6 +677,22 @@ div[id*="projects_col_"] {
 
     .skills_col_1-3 {
         width: 75%;
+    }
+
+    #contact_form input[type=email] {
+        margin: 4px 0;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #contact_form textarea {
+        margin: 4px 0;
+        font-size: 14px;
+        height: 80px;
+    }
+
+    #contact_form button {
+        margin: 4px 0;
     }
 }
 
