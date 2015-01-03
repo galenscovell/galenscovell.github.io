@@ -528,17 +528,17 @@ div[id*="projects_col_"] {
     height: 50px;
     border: 3px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #external_links img:hover {
-    border: 3px solid rgba(250, 250, 250, 0.8);
-    transition: 0.2s;
+    border: 3px solid rgba(250, 250, 250, 0.6);
+    transition: 0.1s;
 }
 
 #contact_col_2 {
     display: inline-block;
-    margin-top: 20px;
+    margin: 20px 0;
     padding-right: 40px;
     width: 72%;
     vertical-align: top;
@@ -563,11 +563,17 @@ div[id*="projects_col_"] {
     float: right;
     clear: both;
     width: 70%;
-    height: 24px;
+    height: 30px;
     margin: 4px 0;
     font-size: 16px;
     font-family: 'Open sans', sans-serif;
-    padding: 4px;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+#contact_form input[type=email]:focus {
+    border: 1px solid #007BB6;
 }
 
 #contact_form textarea {
@@ -579,7 +585,13 @@ div[id*="projects_col_"] {
     font-size: 16px;
     line-height: 16px;
     font-family: 'Open sans', sans-serif;
-    padding: 8px 4px;
+    padding: 10px 6px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+#contact_form textarea:focus {
+    border: 1px solid #007BB6;
 }
 
 #contact_form button {
@@ -590,11 +602,11 @@ div[id*="projects_col_"] {
     clear: both;
     width: 100px;
     height: 40px;
-    margin: 4px 0;
+    margin: 6px;
     border: 0px solid rgba(0, 0, 0, 0);
     text-align: center;
     font-size: 16px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 1);
     border-radius: 2px;
 }
 
