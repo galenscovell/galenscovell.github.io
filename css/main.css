@@ -570,10 +570,12 @@ div[id*="projects_col_"] {
     padding: 6px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 4px;
+    transition: 0.2s;
 }
 
 #contact_form input[type=email]:focus {
     border: 1px solid #007BB6;
+    transition: 0.2s;
 }
 
 #contact_form textarea {
@@ -588,10 +590,12 @@ div[id*="projects_col_"] {
     padding: 10px 6px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 4px;
+    transition: 0.2s;
 }
 
 #contact_form textarea:focus {
     border: 1px solid #007BB6;
+    transition: 0.2s;
 }
 
 #contact_form button {
