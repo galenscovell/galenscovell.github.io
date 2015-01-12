@@ -20,19 +20,27 @@ $(document).ready(function() {
 }); 
 
 
-// Fade in effect when objects reached on scroll
-$(window).scroll(function(event) {
-    $('.skills_row div').each(function(i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.animate({'opacity':'1'},800);
-        }
+
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+    // Fade in effect when objects reached on scroll
+    $(window).scroll(function(event) {
+        $('.skills_row div').each(function(i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+                el.animate({'opacity':'1'},800);
+            }
+        });
+
+        $('.projects_row div').each(function(i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+                el.animate({'opacity':'1'},800);
+            }
+        });
     });
 
-    $('.projects_row div').each(function(i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.animate({'opacity':'1'},800);
-        }
-    });
-});
+}
