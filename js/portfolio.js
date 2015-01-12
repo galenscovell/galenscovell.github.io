@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 1000, 'swing', function () {
+        }, 800, 'swing', function () {
             window.location.hash = target;
         });
     });
@@ -25,14 +25,14 @@ $(window).scroll(function(event) {
     $('.skills_row div').each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
-            el.animate({'opacity':'1'},1000);
+            el.animate({'opacity':'1'},800);
         }
     });
 
     $('.projects_row div').each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
-            el.animate({'opacity':'1'},1000);
+            el.animate({'opacity':'1'},800);
         }
     });
 });
