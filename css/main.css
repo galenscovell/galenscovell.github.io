@@ -323,7 +323,6 @@ html, body {
     width: 26%;
     margin: 10px 20px;
     padding-top: 10px;
-    opacity: 0;
 }
 
 .skills_col_1-4 {
@@ -331,7 +330,6 @@ html, body {
     width: 18%;
     margin: 10px 20px;
     padding-top: 10px;
-    opacity: 0;
 }
 
 .skills_row img {
@@ -439,7 +437,6 @@ div[id*="projects_col_"] {
     width: 300px;
     height: 225px;
     margin: 6px;
-    opacity: 0;
     border-radius: 6px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
 }
