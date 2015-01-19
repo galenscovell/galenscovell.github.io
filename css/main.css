@@ -179,13 +179,13 @@ html, body {
 .about_col_1-3 h2 {
     font-size: 16px;
     text-align: left;
-    font-family: 'Ubuntu', 'sans-serif';
+    margin-top: 2px;
 }
 
 .about_col_1-3 h4 {
     font-size: 14px;
     text-align: left;
-    font-family: 'Ubuntu', 'sans-serif';
+    margin-bottom: 2px;
 }
 
 .about_col_1-3 p {
@@ -194,7 +194,6 @@ html, body {
     text-align: left;
     padding: 10px;
     border-top: 3px solid rgb(194, 214, 194);
-    border-radius: 4px 20px 0px 0px;
 }
 
 .about_col_1-4 {
@@ -224,13 +223,11 @@ html, body {
 .about_col_1-2 h4 {
     margin: 0;
     font-size: 18px;
-    font-family: 'Ubuntu', 'sans-serif';
 }
 
 .about_col_1-2 h2 {
     margin: 0;
     font-size: 16px;
-    font-family: 'Ubuntu', 'sans-serif';
 }
 
 .about_col_1-2 p {
@@ -238,6 +235,7 @@ html, body {
     font-size: 16px;
     color: gray;
     padding: 10px;
+    border-top: 3px solid rgb(194, 214, 194);
 }
 
 
