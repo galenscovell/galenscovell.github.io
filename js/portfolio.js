@@ -20,9 +20,8 @@ $(document).ready(function() {
 });
 
 // If user has javascript, setup fade effects
-$('.about_row div').css('opacity', '0')
-$('.skills_row div').css('opacity', '0')
-$('.projects_row div').css('opacity', '0')
+$('.about_row div').css('opacity', '0');
+$('.skills_row div').css('opacity', '0');
 
 // Fade in effect when objects reached on scroll
 $(window).scroll(function(event) {
@@ -34,13 +33,6 @@ $(window).scroll(function(event) {
     });
 
     $('.skills_row div').each(function(i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.animate({'opacity':'1'},800);
-        }
-    });
-
-    $('.projects_row div').each(function(i, el) {
         var el = $(el);
         if (el.visible(true)) {
             el.animate({'opacity':'1'},800);
