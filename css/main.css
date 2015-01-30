@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 01-19-2015 */
+/* galenscovell.github.io 01-30-2015 */
 
 
 html, body {
@@ -455,12 +455,12 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_4 {
-    background: url('pics/snake.png') no-repeat center;
+    background: url('pics/memory.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_5 {
-    background: url('pics/etchasketch.png') no-repeat center;
+    background: url('pics/parser.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -485,12 +485,12 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_10 {
-    background: url('pics/memory.png') no-repeat center;
+    background: url('pics/snake.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_11 {
-    background: url('pics/eventmanager.png') no-repeat center;
+    background: url('pics/etchasketch.png') no-repeat center;
     background-size: 100% 100%;
 }
 
