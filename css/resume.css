@@ -1,0 +1,154 @@
+
+/* Galen Scovell, Resume 01-30-2015 */
+
+
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2980b9;
+}
+
+#border_container {
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+}
+
+#head_container {
+    position: relative;
+    top: 0;
+    padding-top: 24px;
+    background-color: #22313F;
+    height: 100px;
+    width: 860px;
+    margin: 0 auto;
+    font-family: 'Bree Serif', 'sans-serif'
+}
+
+#head_container h3 {
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+#head_container h5 {
+    font-weight: normal;
+    margin: 2px 0 0 0;
+    text-align: center;
+    color: #D35400;
+    font-size: 18px;
+}
+
+#main_container {
+    position: relative;
+    background-color: #ecf0f1;
+    width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.col_2-3 {
+    vertical-align: top;
+    display: inline-block;
+    width: 74%;
+    text-align: left;
+}
+
+.col_1-3 {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    margin: 0 20px;
+    text-align: right;
+}
+
+#education,
+#experience,
+#projects,
+#interests,
+#contact,
+#skills {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#education h6,
+#experience h6,
+#projects h6,
+#interests h6 {
+    font-weight: normal;
+    color: #D35400;
+    font-size: 21px;
+    margin: 0;
+    font-family: 'Bree Serif', 'sans-serif';
+}
+
+#contact h6,
+#skills h6 {
+    font-weight: normal;
+    color: #3B3B3B;
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: 'Bree Serif', 'sans-serif';
+}
+
+#contact p,
+#skills p {
+    font-weight: normal;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 16px;
+    margin: 0;
+}
+
+.edu_box,
+.exp_box,
+.project_box,
+.interests_box {
+    margin: 8px 0;
+}
+
+
+
+/* Box Structures */
+
+.left_box {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    color: #3D566E;
+}
+
+.middle_box {
+    vertical-align: top;
+    display: inline-block;
+    width: 55%;
+    color: #3B3B3B;
+}
+
+.right_box {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    color: #3B3B3B;
+}
+
+.left_box h4,
+.middle_box h4,
+.right_box h4 {
+    font-weight: normal;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 18px;
+    margin: 0;
+}
+
+.middle_box p {
+    font-weight: normal;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 18px;
+    margin: 0;
+}
