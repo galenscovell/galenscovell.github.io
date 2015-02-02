@@ -1,4 +1,5 @@
 galenscovell.github.io
 ======================
 
-Personal website and portfolio. Constructed from the ground up with HTML5, CSS3 and Javascript.
+Personal website/portfolio and online resume. 
+Constructed from the ground up with HTML5, CSS3 and Javascript.

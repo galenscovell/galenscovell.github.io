@@ -31,7 +31,6 @@ html, body {
     margin: 0 auto;
     font-family: 'Bree Serif', 'sans-serif';
     letter-spacing: -0.5px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #head_container h2 {
@@ -58,7 +57,6 @@ html, body {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #foot_container {
@@ -69,7 +67,6 @@ html, body {
     height: 40px;
     width: 8.5in;
     margin: 0 auto;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #foot_container p {
