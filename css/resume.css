@@ -18,18 +18,20 @@ html, body {
     width: 1100px;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 0 auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #head_container {
     position: relative;
     top: 0;
     padding: 30px 0 0 0;
-    background-color: #22313F;
+    background-color: #292526;
     height: 100px;
     width: 8.5in;
     margin: 0 auto;
     font-family: 'Bree Serif', 'sans-serif';
     letter-spacing: -0.5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #head_container h2 {
@@ -56,16 +58,18 @@ html, body {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #foot_container {
     position: relative;
     bottom: 0;
     padding: 10px 0;
-    background-color: #22313F;
+    background-color: #292526;
     height: 40px;
     width: 8.5in;
     margin: 0 auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7), 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 #foot_container p {
@@ -91,10 +95,68 @@ html, body {
 .col_1-3 {
     vertical-align: top;
     display: inline-block;
-    width: 20%;
-    margin: 0 20px 0 0;
+    width: 17%;
+    margin: 0 20px 0 20px;
     text-align: right;
 }
+
+
+
+
+/* Box Structures */
+
+.left_box {
+    vertical-align: top;
+    display: inline-block;
+    width: 13%;
+    color: #3D566E;
+}
+
+.middle_box {
+    vertical-align: top;
+    display: inline-block;
+    width: 80%;
+    color: #3B3B3B;
+}
+
+.right_box {
+    float: right;
+    color: gray;
+    font-weight: normal;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 14px;
+    margin: 0;
+    line-height: 19px;
+    font-style: italic;
+    padding: 0;
+}
+
+.left_box h5 {
+    font-family: 'Arial', 'sans-serif';
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.middle_box h5 {
+    font-weight: 300;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    margin: 0;
+    line-height: 16px;
+}
+
+.middle_box p {
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
+    margin: 0;
+}
+
+
+
+
+/* Section Headers and Misc. */
 
 #education,
 #experience,
@@ -123,17 +185,25 @@ html, body {
     font-weight: normal;
     color: #3B3B3B;
     font-size: 18px;
-    margin: 4px 0 8px 0;
+    margin: 4px 0 0 0;
+    font-family: 'Bree Serif', 'sans-serif';
+}
+
+#contact h6 {
+    font-weight: normal;
+    color: #3B3B3B;
+    font-size: 14px;
+    margin: 6px 0 0 0;
     font-family: 'Bree Serif', 'sans-serif';
 }
 
 #contact p,
 #skills p {
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
     margin: 0;
-    color: #3B3B3B;
+    color: #3A383A;
     letter-spacing: -1px;
 }
 
@@ -151,61 +221,8 @@ html, body {
 }
 
 #projects li {
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
     margin: 0;
-}
-
-
-
-/* Box Structures */
-
-.left_box {
-    vertical-align: top;
-    display: inline-block;
-    width: 16%;
-    color: #3D566E;
-}
-
-.middle_box {
-    vertical-align: top;
-    display: inline-block;
-    width: 80%;
-    color: #3B3B3B;
-}
-
-.right_box {
-    float: right;
-    color: gray;
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 14px;
-    margin: 0;
-    line-height: 19px;
-    font-style: italic;
-}
-
-.left_box h5 {
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 16px;
-    margin: 0;
-    letter-spacing: -0.5px;
-}
-
-.middle_box h5 {
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 16px;
-    margin: 0;
-    letter-spacing: -0.5px;
-}
-
-.middle_box p {
-    font-weight: normal;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 16px;
-    margin: 0;
-    letter-spacing: -0.5px;
 }
