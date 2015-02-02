@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 01-30-2015 */
+/* galenscovell.github.io 02-01-2015 */
 
 
 html, body {
@@ -97,7 +97,7 @@ html, body {
     margin: 0;
     margin-top: 200px;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 4px;
 }
 
@@ -150,6 +150,42 @@ html, body {
     background: rgba(0, 0, 0, 0.05);
 }
 
+#resume {
+    margin: 30px auto 0 auto;
+    width: 70%;
+}
+
+.resume_button {
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    border-radius: 6px;
+    margin: 10px 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.resume_button a {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.resume_button p {
+    font-size: 28px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.resume_button:hover {
+    background-color: #34495e;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.resume_button a:hover {
+    color: hsla(135, 65%, 85%, 0.8);
+    transition: 0.1s;
+}
+
 #about_grid {
     width: 100%;
     margin: 0 auto;
@@ -165,7 +201,7 @@ html, body {
     width: 200px;
     border-radius: 100%;
     margin: 0 auto;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
     border: 6px solid #C2D6C2;
 }
 
@@ -183,7 +219,8 @@ html, body {
 }
 
 .about_col_1-3 h4 {
-    font-size: 14px;
+    font-weight: normal;
+    font-size: 16px;
     text-align: left;
     margin-bottom: 2px;
 }
@@ -208,7 +245,7 @@ html, body {
     width: 335px;
     border-radius: 20px;
     margin: 0 auto;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
     border: 6px solid #C2D6C2;
 }
 
@@ -228,6 +265,7 @@ html, body {
 .about_col_1-2 h2 {
     margin: 0;
     font-size: 16px;
+    font-weight: normal;
 }
 
 .about_col_1-2 p {
@@ -285,10 +323,11 @@ html, body {
 }
 
 #skills h4 {
-    font-size: 16px;
+    font-weight: normal;
+    font-size: 18px;
     border-top: 3px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px 10px 0px 0px;
-    padding-top: 6px;
+    line-height: 40px;
 }
 
 #skills h5 {
@@ -338,7 +377,6 @@ html, body {
 #skills_grid div[id*="row"] {
     background: rgba(0, 0, 0, 0.1);
     border-radius: 10px 10px 6px 6px;
-    padding-bottom: 20px;
 }
 
 
