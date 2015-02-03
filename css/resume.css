@@ -215,11 +215,3 @@ html, body {
     font-size: 16px;
     margin: 0;
 }
-
-
-
-
-/* ------- Screen width < 900px -------  */
-@media screen and (max-width: 900px) {
-    html, body { width: 8.5in; }
-}
