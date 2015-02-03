@@ -1,5 +1,5 @@
 
-/* Galen Scovell, Resume 02-02-2015 */
+/* Galen Scovell, Resume 02-03-2015 */
 
 
 html, body {
@@ -214,4 +214,12 @@ html, body {
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
     margin: 0;
+}
+
+
+
+
+/* ------- Screen width < 900px -------  */
+@media screen and (max-width: 900px) {
+    html, body { width: 8.5in; }
 }
