@@ -178,7 +178,8 @@ html, body {
     font-family: 'Bree Serif', 'sans-serif';
 }
 
-#contact h6 {
+#contact h6,
+#skills h6 {
     font-weight: normal;
     color: #3B3B3B;
     font-size: 14px;
