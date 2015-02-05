@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 02-01-2015 */
+/* galenscovell.github.io 02-05-2015 */
 
 
 html, body {
@@ -104,7 +104,7 @@ html, body {
 #top h3 {
     margin-top: 0;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
@@ -508,31 +508,16 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_7 {
-    background: url('pics/mastermind.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_8 {
-    background: url('pics/tictactoe.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_9 {
-    background: url('pics/hangman.png') no-repeat center;
-    background-size: 100% 100%;
-}
-
-#projects_col_10 {
     background: url('pics/snake.png') no-repeat center;
     background-size: 100% 100%;
 }
 
-#projects_col_11 {
+#projects_col_8 {
     background: url('pics/etchasketch.png') no-repeat center;
     background-size: 100% 100%;
 }
 
-#projects_col_12 {
+#projects_col_9 {
     background: url('pics/coloroclock.png') no-repeat center;
     background-size: 100% 100%;
 }
