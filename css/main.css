@@ -1,5 +1,5 @@
 
-/* galenscovell.github.io 02-05-2015 */
+/* galenscovell.github.io 02-20-2015 */
 
 
 html, body {
@@ -275,6 +275,22 @@ html, body {
     padding: 10px;
     border-top: 3px solid rgb(194, 214, 194);
 }
+
+.about_col_1-2 ul {
+    list-style: none;
+    margin: 0;
+}
+
+.about_col_1-2 li {
+    font-size: 14px;
+    color: gray;
+}
+
+.special_li {
+    border-bottom: 2px solid #C2D6C2;
+    font-weight: bold;
+}
+
 
 
 
