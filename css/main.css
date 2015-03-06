@@ -162,11 +162,13 @@ html, body {
     border-radius: 6px;
     margin: 10px 20px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.05s;
 }
 
 .resume_button a {
     text-decoration: none;
     color: #3B3B3B;
+    transition: 0.05s;
 }
 
 .resume_button p {
@@ -272,8 +274,14 @@ html, body {
     margin: 5px 0;
     font-size: 16px;
     color: gray;
-    padding: 10px;
+    padding-top: 10px;
     border-top: 3px solid rgb(194, 214, 194);
+}
+
+.about_col_1-2 .course_links {
+    border: none;
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 
 .about_col_1-2 a {
@@ -286,26 +294,6 @@ html, body {
     color: black;
     transition: 0.1s;
 }
-
-.about_col_1-2 ul {
-    list-style: none;
-    margin: 0;
-}
-
-.about_col_1-2 li {
-    vertical-align: top;
-    display: inline-block;
-    width: 32%;
-    font-size: 12px;
-    color: gray;
-}
-
-.about_col_1-2 .special_li {
-    width: 100%;
-    border-bottom: 2px solid #C2D6C2;
-    font-weight: bold;
-}
-
 
 
 
