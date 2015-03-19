@@ -498,17 +498,17 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_1 {
-    background: url('pics/wator.png') no-repeat center;
+    background: url('pics/parser.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_2 {
-    background: url('pics/microblogger.png') no-repeat center;
+    background: url('pics/cavecreator.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_3 {
-    background: url('pics/cgol.png') no-repeat center;
+    background: url('pics/wator.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -518,12 +518,12 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_5 {
-    background: url('pics/parser.png') no-repeat center;
+    background: url('pics/microblogger.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_6 {
-    background: url('pics/weathered.png') no-repeat center;
+    background: url('pics/cgol.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -538,7 +538,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_9 {
-    background: url('pics/coloroclock.png') no-repeat center;
+    background: url('pics/weathered.png') no-repeat center;
     background-size: 100% 100%;
 }
 
