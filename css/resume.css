@@ -1,9 +1,10 @@
 
-/* Galen Scovell, Resume 02-20-2015 */
+/* Galen Scovell, Resume 04-06-2015 */
 
 
 html, body {
-    width: 100%;
+    width: 8.5in;
+    height: 11in;
     margin: 0px;
     padding: 0px;
     background-color: #6C7A89;
@@ -19,8 +20,8 @@ html, body {
     top: 0;
     padding: 20px 0 0 0;
     background-color: #292526;
-    height: 100px;
-    width: 8.5in;
+    height: 10%;
+    width: 100%;
     font-family: 'Bree Serif', 'sans-serif';
     letter-spacing: -0.5px;
     margin: 0 auto;
@@ -46,7 +47,7 @@ html, body {
 #main_container {
     position: relative;
     background-color: #ecf0f1;
-    width: 8.5in;
+    width: 100%;
     text-align: center;
     padding-top: 20px;
     margin: 0 auto;
@@ -57,8 +58,8 @@ html, body {
     bottom: 0;
     padding: 10px 0;
     background-color: #292526;
-    height: 40px;
-    width: 8.5in;
+    height: 5%;
+    width: 100%;
     margin: 0 auto;
 }
 
