@@ -3,8 +3,8 @@
 
 
 html, body {
-    width: 10in;
-    height: 13in;
+    width: 10.5in;
+    height: 14in;
     margin: 0px;
     padding: 0px;
     background-color: #6C7A89;
@@ -18,9 +18,9 @@ html, body {
 #head_container {
     position: relative;
     top: 0;
-    padding: 20px 0 0 0;
+    padding: 18px 0 0 0;
     background-color: #292526;
-    height: 10%;
+    height: 9%;
     width: 100%;
     font-family: 'Bree Serif', 'sans-serif';
     letter-spacing: -0.5px;
@@ -32,7 +32,7 @@ html, body {
     margin: 0;
     text-align: center;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 44px;
 }
 
 #head_container h3 {
@@ -40,7 +40,7 @@ html, body {
     margin: 0;
     text-align: center;
     color: #D35400;
-    font-size: 21px;
+    font-size: 24px;
     letter-spacing: -0.5px;
 }
 
@@ -49,16 +49,16 @@ html, body {
     background-color: #ecf0f1;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding: 30px 0;
     margin: 0 auto;
 }
 
 #foot_container {
     position: relative;
     bottom: 0;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #292526;
-    height: 5%;
+    height: 3%;
     width: 100%;
     margin: 0 auto;
 }
@@ -68,7 +68,7 @@ html, body {
     margin: 10px 0 0 0;
     text-align: center;
     color: #CCCCCC;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -116,7 +116,7 @@ html, body {
     color: gray;
     font-weight: normal;
     font-family: 'Calibri', 'sans-serif';
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     line-height: 17px;
     padding: 0;
@@ -124,7 +124,7 @@ html, body {
 
 .left_box h5 {
     font-family: 'Arial', 'sans-serif';
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     letter-spacing: -0.5px;
 }
@@ -132,7 +132,7 @@ html, body {
 .middle_box h5 {
     font-weight: 300;
     font-family: 'Arial', 'sans-serif';
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     line-height: 17px;
 }
@@ -184,7 +184,7 @@ html, body {
 #skills h6 {
     font-weight: normal;
     color: #3B3B3B;
-    font-size: 14px;
+    font-size: 16px;
     margin: 6px 0 0 0;
     font-family: 'Bree Serif', 'sans-serif';
 }
@@ -193,7 +193,7 @@ html, body {
 #skills p {
     font-weight: 300;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     color: #3A383A;
     letter-spacing: -1px;
@@ -203,13 +203,13 @@ html, body {
 .exp_box,
 .project_box,
 .interests_box {
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 #projects ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 #projects li {
