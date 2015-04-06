@@ -3,8 +3,8 @@
 
 
 html, body {
-    width: 10.5in;
-    height: 14in;
+    width: 11in;
+    height: 16in;
     margin: 0px;
     padding: 0px;
     background-color: #6C7A89;
@@ -141,7 +141,7 @@ html, body {
     font-weight: 300;
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
-    margin: 0;
+    margin: 0 0 2px 0;
 }
 
 
@@ -216,5 +216,5 @@ html, body {
     font-weight: 300;
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
-    margin: 0;
+    margin: 0 0 2px 0;
 }
