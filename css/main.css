@@ -832,7 +832,7 @@ div[id*="projects_col_"] {
 
 
 /* ------- Screen width < 500px -------  */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px), screen and (max-height: 500px) {
 
     #nav {
         width: 100%;
