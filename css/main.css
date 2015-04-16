@@ -916,3 +916,13 @@ div[id*="projects_col_"] {
         margin: 6px;
     }
 }
+
+
+
+
+
+/* ------- Screen height < 700px -------  */
+@media screen and (max-height: 700px) {
+
+    .holder { margin-top: 60px; }
+}
