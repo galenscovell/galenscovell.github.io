@@ -510,12 +510,12 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_2 {
-    background: url('pics/cartographer.png') no-repeat center;
+    background: url('pics/flicker.png') no-repeat center;
     background-size: 100% 100%;
 }
 
 #projects_col_3 {
-    background: url('pics/wator.png') no-repeat center;
+    background: url('pics/cartographer.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -530,7 +530,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_6 {
-    background: url('pics/cgol.png') no-repeat center;
+    background: url('pics/wator.png') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -540,7 +540,7 @@ div[id*="projects_col_"] {
 }
 
 #projects_col_8 {
-    background: url('pics/memory.png') no-repeat center;
+    background: url('pics/cgol.png') no-repeat center;
     background-size: 100% 100%;
 }
 
