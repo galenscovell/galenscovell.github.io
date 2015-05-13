@@ -185,9 +185,9 @@ html, body {
 #skills h6 {
     font-weight: normal;
     color: #3B3B3B;
-    font-size: 16px;
-    margin: 6px 0 0 0;
-    font-family: 'Bree Serif', 'sans-serif';
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 #contact p,
