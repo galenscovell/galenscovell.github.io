@@ -1,21 +1,9 @@
-
-
-$(window).scroll(function(event) {
-    // Fade in effect when objects reached on scroll
-    $('.about_row div').each(function(i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.animate({'opacity':'1'},800);
-        }
-    });
-
-    $('.skills_row div').each(function(i, el) {
-        var el = $(el);
-        if (el.visible(true)) {
-            el.animate({'opacity':'1'},800);
-        }
-    });
-});
+/**
+ * Portfolio dynamic controls
+ * ==========================
+ *
+ * @author GalenS <galen.scovell@gmail.com>
+ */
 
 $('a[href^="#"]').on('click',function (e) {
     // Swing animation on link click
@@ -23,9 +11,9 @@ $('a[href^="#"]').on('click',function (e) {
     var target = this.hash;
     $target = $(target);
     $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
-    }, 800, 'swing', function () {
-        window.location.hash = target;
+        'scrollTop': $target.offset().top - 60
+    }, 500, 'swing', function () {
+        window.location.hash = target - 60;
     });
 });
 

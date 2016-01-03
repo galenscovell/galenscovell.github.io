@@ -7,7 +7,7 @@
     <title>Galen Scovell | Portfolio</title>
     <meta http-equiv='content-type' content='text/html; charset=utf-8'>
     <meta name='keywords' content='Galen Scovell, programming, developer, web development, full-stack, data science, University of Oregon, Eugene, machine learning, game development'>
-    <meta name='description' content='Galen is a developer, scientist and lifelong learner in Seattle'>
+    <meta name='description' content='Galen is a software engineer and lifelong learner in Seattle'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='icon' href='icon/favicon.ico' type='image/x-icon'>
     <meta name='google-site-verification' content='PJE19PD7MH9Y6cj3-3PCxonTN22jrG9fItZZ9H5DMUg' />
@@ -19,8 +19,12 @@
     <meta property='og:type' content='website'>
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Scripts -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' defer></script>
+    <script src='js/portfolio.js' defer></script>
     
     <!-- Google Analytics Tracking -->
     <script>
@@ -35,285 +39,136 @@
 </head>
 
 <body>
-    
-    <!-- navbar -->
+    <!-- Navbar -->
     <header>
-        <div id='nav'>
-            <ul>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#skills'>Skills</a></li>
-                <li><a href='#projects'>Projects</a></li>
-                <li><a href='#contact'>Contact</a></li>
-            </ul>
+        <div id='top'>
+            <p>Galen Scovell</p>
         </div>
-    </header> 
+        <div id='nav'>
+            <a href='#middle_summary'>Summary</a>
+            <a href='#middle_projects'>Projects</a>
+            <a href='#middle_contact'>Contact</a>
+        </div>
+        <div id='resume_button'>
+            <a href='GalenScovell_resume.pdf'>
+                <i class='fa fa-download'></i> Resume
+            </a>
+        </div>
+    </header>
 
     
     <div id='main'>
-    <!-- Top Section -->
-    <section id='top'>
-        <div class='tint'>
-            <div id='offset'></div>
-            <div class='holder'>
-                <h1>Galen Scovell</h1>
-                <h3>developer &#8226; scientist &#8226; lifelong learner</h3>
-            </div>
-        </div>
+    <!-- Middle Section -->
+    <section id='middle_summary'>
+
     </section>
 
-    
-    
-    <!-- About Section -->
-    <section id='about'>
-        <div id='offset'></div>
-        <h3>EDUCATION &amp; CURRENT</h3>
-        <h5>Past, Present, Future</h5>
-        <div id='about_grid'>
-            <div class='about_row'>
-                <div class='about_col_1-3'>
+
+    <!-- Summary Section -->
+    <section id='summary'>
+        <div id='summary_grid'>
+            <div class='summary_row'>
+                <div class='summary_col_1-3'>
                     <img src='css/pics/biology.gif'></img>
                     <h4>Formal Education</h4>
                     <h2>University of Oregon: Bachelor of Science, Biology</h2>
                     <p>Why Biology? Few subjects rival the complexity of organic life. Excelling through scientifically rigorous studies has honed my analytical and problem solving skills. Most importantly, I gained the confidence to know that I can grasp anything I set my mind to.</p>
                 </div>
-                <div class='about_col_1-3'>
+                <div class='summary_col_1-3'>
                     <img src='css/pics/selftaught.jpg'></img>
                     <h4>Personal Education</h4>
                     <h2>Extensive Extracurricular Computer Science Studies</h2>
                     <p>I never stop learning. Alongside my full-time college education I have taught myself programming and computer science through online courses, books and personal projects. I acknowledge that skill takes time, and I relish the journey.</p>
                 </div>
-                <div class='about_col_1-3'>
+                <div class='summary_col_1-3'>
                     <img src='css/pics/engineering.jpg'></img>
                     <h4>Current Position</h4>
                     <h2>Software Engineer, Data Sciences at Payscale, Inc</h2>
                     <p>I am currently a Software Engineer on Payscale's Data Science team in Seattle. My work ranges from data collection to full-stack web app creation including data analysis and machine learning/natural language processing. My toolset includes C#, ASP.NET, JavaScript, Python, AWS, SQL and ElasticSearch.</p>
                 </div>
             </div>
-
-            <div class='about_row'>
-                <h6>Independent Study</h6>
-                <div class='about_col_1-4'>
-                    <img src='css/pics/logo_ucberkeley.png'></img>
-                </div>
-                <div class='about_col_1-2'>
-                    <h4>CS 61A</h4>
-                    <h2>Structure and Interpretation of Computer Programs</h2>
-                    <p>Course covering fundamental concepts of computer science. Topics included recursion, environment diagrams, higher-order functions, lambdas, data abstraction, mutability, orders of growth and common data structures.</p>
-                    <p class='course_links'><a href='http://www-inst.eecs.berkeley.edu/~cs61a/fa14/'>Course Website</a> | <a href='https://github.com/galenscovell/CS61A'>Coursework</a></p>
-                </div>
-
-                <div class='about_col_1-4'>
-                    <img src='css/pics/logo_helsinki.jpg'></img>
-                </div>
-                <div class='about_col_1-2'>
-                    <h4>Object-Oriented Programming with Java</h4>
-                    <h2>Parts I and II</h2>
-                    <p>Two six-week courses covering comprehensive functionality of Java, object-oriented programming and related computer science concepts. Topics included inheritance, polymorphism, encapsulation, interfaces, generics, exceptions, GUI's, and iterators over the development of nearly 150 Java programs.</p>
-                    <p class='course_links'><a href='http://mooc.fi/courses/2013/programming-part-1/'>Course Website</a> | <a href='https://github.com/galenscovell/Helsinki-Java'>Coursework</a></p>
-                </div>
-
-                <div class='about_col_1-4'>
-                    <img src='css/pics/logo_princeton.png'></img>
-                </div>
-                <div class='about_col_1-2'>
-                    <h4>COS 226</h4>
-                    <h2>Algorithms and Data Structures</h2>
-                    <p>Course focusing on developing implementations, understanding performance characteristics, and estimating effectiveness of fundamental algorithms and data structures.</p>
-                    <p class='course_links'><a href='https://www.cs.princeton.edu/courses/archive/fall14/cos226/'>Course Website</a> | <a href='https://github.com/galenscovell/COS226'>Coursework</a></p> 
-                </div>
-
-            </div>
-            <div class='about_row'>
-                <h6>Resume</h6>
-                <div id='resume'>
-                    <div class='resume_button'>
-                        <a href='GalenScovell_resume.pdf'>
-                            <p><i class='fa fa-download'></i> PDF</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
-
-    <!-- Middle Section #1 -->
-    <section id='middle_1'>
-        <div class='tint'>
-        </div>
-    </section>
-
-
-
-    <!-- Skills Section -->
-    <section id='skills'>
-        <div id='offset'></div>
-        <h3>SKILLS &amp; FOUNDATIONS</h3>
-        <div id='skills_grid'>
-
-            <div class='skills_row'>
-                <h5>Languages</h5>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/java.gif' />
-                    <div id='row1_col1'>
-                        <h4>Java</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/python.png' />
-                    <div id='row1_col2'>
-                        <h4>Python</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/javascript.png' />
-                    <div id='row1_col3'>
-                        <h4>JavaScript</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/csharp.png' />
-                    <div id='row1_col4'>
-                        <h4>C#</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class='skills_row'>
-                <h5>Mobile, Web &amp; Game Development</h5>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/android.png' />
-                    <div id='row2_col1'>
-                        <h4>Android</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/html5css3.gif' />
-                    <div id='row2_col2'>
-                        <h4>HTML5 &amp; CSS3</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/aspnet.png' />
-                    <div id='row2_col3'>
-                        <h4>ASP.NET</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/libgdx.png' />
-                    <div id='row2_col4'>
-                        <h4>LibGDX</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class='skills_row'>
-                <h5>Data Management</h5>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/sql.png' />
-                    <div id='row3_col1'>
-                        <h4>SQL</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/aws.png' />
-                    <div id='row3_col2'>
-                        <h4>AWS</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/elasticsearch.png' />
-                    <div id='row3_col3'>
-                        <h4>ElasticSearch</h4>
-                    </div>
-                </div>
-                <div class='skills_col_1-4'>
-                    <img src='css/pics/docker.png' />
-                    <div id='row3_col4'>
-                        <h4>Docker</h4>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+    <!-- Middle Section -->
+    <section id='middle_projects'>
 
     </section>
-
-
-
-    <!-- Middle Section #2 -->
-    <section id='middle_2'>
-        <div class='tint'>
-        </div>
-    </section>
-
 
 
     <!-- Projects Section -->
     <section id='projects'>
-        <div id='offset'></div>
-        <h3>PROJECTS</h3>
-        <h5>Live Demos &amp; GitHub Repositories</h5>
         <div id='projects_grid'>
 
-            <div class='projects_row'>
-                <div id='projects_col_1'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Transcriptome-Data-Parser' class='button_text'>Transcriptome Data Parser<p>Python</p></a>
-                    </div>
-                </div>
-                <div id='projects_col_2'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Flicker' class='button_text'>Flicker<p>Java, Android, LibGDX</p></a>
-                    </div>
-                </div>
-                <div id='projects_col_3'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Cartographer' class='button_text'>Cartographer<p>Java</p></a>
-                    </div>
-                </div>  
-            </div>
-
-            <div class='projects_row'>
-                <div id='projects_col_4'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/COS226/tree/master/Projects/Percolation' class='button_text'>Percolation<p>Java</p></a>
-                    </div>
-                </div>
-                <div id='projects_col_5'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Django-Microblogger' class='button_text'>&#x3BC;blogger<p>Python, Django, PostgreSQL, HTML/CSS, JavaScript</p></a>
-                    </div>
-                </div>
-                <div id='projects_col_6'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Wa-Tor' class='button_text'>Wa-Tor<p>Python</p></a>
-                    </div>
+            <div id='project_1'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Transcriptome-Data-Parser' class='button_text'>Transcriptome Data Parser<p>Python, Pandas, Tkinter</p></a>
                 </div>
             </div>
-
-            <div class='projects_row'>
-                <div id='projects_col_7'>
-                    <div class='button'>
-                        <a href='http://github.com/galenscovell/Javascript-Snake/' class='button_text'>Snake<p>JavaScript, HTML/CSS</p></a>
-                    </div>
+            <div id='project_2'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Flicker' class='button_text'>Flicker<p>Java, Android, LibGDX</p></a>
                 </div>
-                <div id='projects_col_8'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Conway-Game-of-Life' class='button_text'>Conway's Game of Life<p>Python</p></a>
-                    </div>
+            </div>
+            <div id='project_3'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Cartographer' class='button_text'>Cartographer<p>Java, Swing</p></a>
                 </div>
-                <div id='projects_col_9'>
-                    <div class='button'>
-                        <a href='https://github.com/galenscovell/Weathered' class='button_text'>Weathered<p>Ruby, Sinatra, HTML/CSS</p></a>
-                    </div>
+            </div>
+            <div id='project_4'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/COS226/tree/master/Projects/Percolation' class='button_text'>Percolation<p>Java</p></a>
+                </div>
+            </div>
+            <div id='project_5'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Django-Microblogger' class='button_text'>&#x3BC;blogger<p>Python, Django, PostgreSQL, HTML/CSS, JavaScript</p></a>
+                </div>
+            </div>
+            <div id='project_6'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Wa-Tor' class='button_text'>Wa-Tor<p>Python, PyGame</p></a>
+                </div>
+            </div>
+            <div id='project_7'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Javascript-Snake/' class='button_text'>Snake<p>JavaScript, HTML/CSS</p></a>
+                </div>
+            </div>
+            <div id='project_8'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Conway-Game-of-Life' class='button_text'>Conway's Game of Life<p>Python, PyGame</p></a>
+                </div>
+            </div>
+            <div id='project_9'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Weathered' class='button_text'>Weathered<p>Ruby, Sinatra, HTML/CSS</p></a>
+                </div>
+            </div>
+            <div id='project_10'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Twine' class='button_text'>Twine<p>Java, Android, LibGDX</p></a>
+                </div>
+            </div>
+            <div id='project_11'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Javascript-Etch-a-Sketch' class='button_text'>Etch-a-Sketch<p>JavaScript, HTML/CSS</p></a>
+                </div>
+            </div>
+            <div id='project_12'>
+                <div class='button'>
+                    <a href='https://github.com/galenscovell/Memory' class='button_text'>Memory<p>Python, PyGame</p></a>
                 </div>
             </div>
 
         </div>
     </section>
 
+
+    <!-- Middle Section -->
+    <section id='middle_contact'>
+        
+    </section>
 
 
     <!-- Contact Section -->
@@ -342,10 +197,6 @@
         </div>
     </section>
     </div>
-
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <script src='js/jquery.visible.min.js'></script>
-    <script src='js/portfolio.js'></script>
 
 </body>
 </html>
