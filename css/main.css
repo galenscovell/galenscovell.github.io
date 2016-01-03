@@ -343,27 +343,21 @@ div[id*="project_"] {
 #middle_summary {
     position: relative;
     top: 60px;
-    height: 80px;
+    height: 30px;
     width: 100%;
-    border-top: 30px solid rgb(39, 39, 39);
-    border-bottom: 30px solid rgb(39, 39, 39);
-    background-color: hsla(135, 78%, 40%, 0.8);
+    background-color: rgb(118, 158, 203);
 }
 
 #middle_projects {
-    height: 80px;
+    height: 30px;
     width: 100%;
-    border-top: 30px solid rgb(39, 39, 39);
-    border-bottom: 30px solid rgb(39, 39, 39);
-    background-color: hsla(135, 78%, 40%, 0.8);
+    background-color: rgb(118, 158, 203);
 }
 
 #middle_contact {
-    height: 80px;
+    height: 30px;
     width: 100%;
-    border-top: 30px solid rgb(39, 39, 39);
-    border-bottom: 30px solid rgb(39, 39, 39);
-    background-color: hsla(135, 78%, 40%, 0.8);
+    background-color: rgb(118, 158, 203);
 }
 
 
@@ -377,6 +371,7 @@ div[id*="project_"] {
     background: #272727;
     color: gray;
     position: absolute;
+    padding-top: 30px;
 }
 
 #contact_grid {
