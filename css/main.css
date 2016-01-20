@@ -324,25 +324,29 @@ div[id*="project_"] {
 }
 
 .button:hover {
-    background-color: rgba(30, 30, 30, 0.75);
+    background-color: rgba(118, 158, 203, 0.75);
     transition: 0.1s;
 }
 
 .button_text {
     display: table-cell;
     vertical-align: middle;
-    font-size: 28px;
-    color: hsla(60, 7%, 96%, 0.0);
+    font-size: 26px;
+    color: #f3f3f3;
     text-decoration: none;
+    text-shadow: 0px 1px 1px black;
+    opacity: 0.0;
     transition: 0.1s;
 }
 
 .button_text p {
-    font-size: 21px;
+    display: inline-block;
+    width: 90%;
+    font-size: 18px;
 }
 
 .button_text:hover {
-    color: #f3f3f3;
+    opacity: 1.0;
     transition: 0.1s;
 }
 
@@ -631,5 +635,23 @@ div[id*="project_"] {
     .summary_col_1-4 img {
         height: 90px;
         width: 250px;
+    }
+
+    div[id*="project_"] {
+        width: 300px;
+        height: 225px;
+    }
+
+    .button {
+        background-color: rgba(30, 30, 30, 0.75);
+    }
+
+    .button_text {
+        font-size: 26px;
+        opacity: 1.0;
+    }
+
+    .button_text p {
+        font-size: 18px;
     }
 }
