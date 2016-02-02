@@ -282,31 +282,21 @@ div[id*="project_"] {
 }
 
 #project_9 {
-    background: url('pics/weathered.png') no-repeat center;
-    background-size: 100%;
-}
-
-#project_10 {
     background: url('pics/circuits.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_11 {
-    background: url('pics/etchasketch.png') no-repeat center;
-    background-size: 100%;
-}
-
-#project_12 {
+#project_10 {
     background: url('pics/memory.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_13 {
+#project_11 {
     background: url('pics/pathfinder.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_14 {
+#project_12 {
     background: url('pics/quadtree.png') no-repeat center;
     background-size: 100%;
 }
