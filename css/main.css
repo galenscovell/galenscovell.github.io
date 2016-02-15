@@ -20,11 +20,11 @@ header {
     margin: 0;
     padding: 0;
     justify-content: space-between;
+    background-color: #282828;
+    box-shadow: 0px 2px 2px rgba(60, 60, 60, 0.6);
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #282828;
-    box-shadow: 0px 2px 2px rgba(60, 60, 60, 0.4);
 }
 
 #top {
@@ -33,13 +33,13 @@ header {
 
 #top img {
     display: inline-block;
-    color: gray;
     height: 40px;
     width: 32px;
     margin: 10px;
 }
 
 #top p {
+    text-decoration: none;
     display: inline-block;
     height: 60px;
     line-height: 60px;
@@ -47,26 +47,7 @@ header {
     font-size: 21px;
     color: #f3f3f3;
     margin: 0;
-    padding: 0 4px;
-}
-
-#nav a {
-    text-align: center;
-    display: inline-block;
-    height: 100%;
-    width: 90px;
-    font-size: 18px;
-    line-height: 60px;
-    text-decoration: none;
-    color: gray;
-    margin: 0;
-    padding: 0;
-    transition: 0.1s;
-}
-
-#nav a:hover {
-    color: #f3f3f3;
-    transition: 0.05s;
+    transition: 0.2s;
 }
 
 #resume_button {
@@ -79,18 +60,18 @@ header {
     color: gray;
     font-size: 21px;
     line-height: 60px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #resume_button:hover {
     cursor: pointer;
     color: #f3f3f3;
-    transition: 0.05s;
+    transition: 0.1s;
 }
 
 #resume_button:hover a {
     color: #f3f3f3;
-    transition: 0.05s;
+    transition: 0.1s;
 }
 
 
@@ -98,129 +79,8 @@ header {
 /* ------- Main Container ------- */
 #main {
     width: 100%;
-    background-color: #f9f9f9;
     text-align: center;
-}
-
-
-
-/* ------- Summary ---------*/
-#summary {
-    font-family: 'Roboto', sans-serif;
-    top: 60px;
-    text-align: center;
-    position: relative;
-    margin: 60px 0;
-    box-shadow: 0px 2px 2px rgba(60, 60, 60, 0.6);
-}
-
-#summary_grid {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 60px;
-}
-
-.summary_row {
-    width: 100%;
-}
-
-.summary_col_1-3 img {
-    height: 225px;
-    width: 225px;
-    border-radius: 100%;
-    margin: 0 auto;
-    box-shadow: 0px 1px 4px rgba(60, 60, 60, 0.85);
-    border: 6px solid #C2D6C2;
-}
-
-.summary_col_1-3 {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin: 10px;
-}
-
-.summary_col_1-3 h2 {
-    font-weight: 500;
-    font-size: 16px;
-    text-align: left;
-    margin-top: 2px;
-}
-
-.summary_col_1-3 h4 {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    margin-bottom: 2px;
-}
-
-.summary_col_1-3 p {
-    font-weight: 300;
-    color: gray;
-    font-size: 16px;
-    text-align: left;
-    padding: 10px;
-    border-top: 3px solid rgb(194, 214, 194);
-}
-
-.summary_col_1-4 {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    margin: 10px 10px;
-}
-
-.summary_col_1-4 img {
-    height: auto;
-    width: 95%;
-    border-radius: 20px;
-    margin: 0px auto;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
-    border: 6px solid #C2D6C2;
     background-color: #f3f3f3;
-}
-
-.summary_col_1-2 {
-    display: inline-block;
-    width: 55%;
-    margin: 20px 20px;
-    text-align: left;
-}
-
-.summary_col_1-2 h4 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.summary_col_1-2 h2 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.summary_col_1-2 p {
-    margin: 5px 0;
-    font-size: 16px;
-    color: gray;
-    padding-top: 10px;
-    border-top: 3px solid rgb(194, 214, 194);
-}
-
-.summary_col_1-2 .course_links {
-    border: none;
-    font-size: 15px;
-    padding-bottom: 10px;
-}
-
-.summary_col_1-2 a {
-    text-decoration: none;
-    color: green;
-    transition: 0.1s;
-}
-
-.summary_col_1-2 a:hover {
-    color: black;
-    transition: 0.1s;
 }
 
 
@@ -229,9 +89,8 @@ header {
 #projects {
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    position: relative;
-    padding: 60px 0;
-    box-shadow: 0px 2px 2px rgba(60, 60, 60, 0.6);
+    padding: 20px 0;
+    margin-top: 60px;
 }
 
 #projects p {
@@ -240,7 +99,7 @@ header {
 }
 
 #projects_grid {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
 }
@@ -250,67 +109,67 @@ div[id*="project_"] {
     width: 300px;
     height: 225px;
     margin: 0;
-    border-radius: 3px;
-    box-shadow: 0px 1px 1px rgba(60, 60, 60, 0.9);
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px rgba(60, 60, 60, 0.6);
     transition: all 0.3s ease;
 }
 
-#project_1 {
+#project_transcriptome {
     background: url('pics/parser.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_2 {
+#project_flicker {
     background: url('pics/flicker.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_3 {
+#project_cartographer {
     background: url('pics/cartographer.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_4 {
+#project_percolation {
     background: url('pics/percolation.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_5 {
+#project_microblogger {
     background: url('pics/microblogger.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_6 {
+#project_wator {
     background: url('pics/wator.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_7 {
+#project_snake {
     background: url('pics/snake.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_8 {
+#project_conway {
     background: url('pics/cgol.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_9 {
+#project_circuits {
     background: url('pics/circuits.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_10 {
+#project_memory {
     background: url('pics/memory.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_11 {
+#project_pathfinder {
     background: url('pics/pathfinder.png') no-repeat center;
     background-size: 100%;
 }
 
-#project_12 {
+#project_quadtree {
     background: url('pics/quadtree.png') no-repeat center;
     background-size: 100%;
 }
@@ -319,12 +178,12 @@ div[id*="project_"] {
     display: table;
     height: 100%;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 6px;
     transition: all 0.3s ease;
 }
 
 .button:hover {
-    background-color: rgba(30, 30, 30, 0.85);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .button_text {
@@ -351,55 +210,14 @@ div[id*="project_"] {
 
 
 
-/* ------- Heads ------- */
-#summary_head {
-    position: relative;
-    top: 60px;
-    height: 130px;
-    width: 100%;
-    background: url('pics/top.JPG') no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#projects_head {
-    height: 130px;
-    width: 100%;
-    background: url('pics/middle.jpg') no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#contact_head {
-    height: 130px;
-    width: 100%;
-    background: url('pics/bottom.jpg') no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.tint {
-    height: 130px;
-    background: rgba(118, 158, 203, 0.7);
-}
-
-
-
 /* ------- Contact ------- */
 #contact {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     background: #272727;
     color: gray;
-    position: absolute;
-    padding-top: 30px;
+    padding: 20px 0;
 }
 
 #contact_grid {
@@ -422,9 +240,8 @@ div[id*="project_"] {
 #bubble {
     width: 200px;
     height: 200px;
-    border: 5px solid #7CBE6C;
     border-radius: 100%;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.7);
 }
 
 #external_links {
@@ -433,15 +250,21 @@ div[id*="project_"] {
     margin: 0 auto;
 }
 
+#external_links a {
+    text-decoration: none;
+}
+
 #external_links img {
     width: 50px;
     height: 50px;
     border: 3px solid rgba(0, 0, 0, 0);
-    border-radius: 10px;
+    border-radius: 100%;
+    transition: 0.1s;
 }
 
 #external_links img:hover {
-    border: 3px solid #7CBE6C;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    transition: 0.1s;
 }
 
 #contact_col_2 {
@@ -464,7 +287,7 @@ div[id*="project_"] {
 #contact_col_2 p {
     font-weight: 300;
     margin: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: gray;
 }
 
@@ -475,10 +298,10 @@ div[id*="project_"] {
     width: 70%;
     height: 30px;
     margin: 4px 0;
-    font-size: 16px;
+    font-size: 18px;
     padding: 6px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 #contact_form textarea {
@@ -488,11 +311,11 @@ div[id*="project_"] {
     width: 70%;
     height: 60px;
     margin: 4px 0;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 18px;
     padding: 10px 6px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 #contact_form button {
@@ -501,38 +324,25 @@ div[id*="project_"] {
     background: #3498db;
     float: right;
     clear: both;
-    width: 100px;
+    width: 120px;
     height: 40px;
     margin: 6px;
     border: 0px solid rgba(0, 0, 0, 0);
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 1);
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 #contact_form button:hover {
     background: #52B3D9;
+    cursor: pointer;
 }
-
 
 
 
 /* ------- Screen width < 1000px -------  */
 @media screen and (max-width: 1000px) {
-
-    .summary_col_1-3 {
-        width: 90%;
-    }
-
-    .summary_col_1-2 {
-        width: 85%;
-    }
-
-    .summary_col_1-4 {
-        width: 50%;
-    }
-
 
     #contact_col_1 {
         width: 80%;
@@ -552,16 +362,6 @@ div[id*="project_"] {
         float: none;
         display: inline-block;
         margin: 4px 40px;
-    }
-}
-
-
-
-/* ------- Screen width < 900px -------  */
-@media screen and (max-width: 900px) {
-
-    .summary_col_1-2 ul { 
-        padding: 0; 
     }
 }
 
@@ -593,10 +393,6 @@ div[id*="project_"] {
 /* ------- Screen width < 600px -------  */
 @media screen and (max-width: 600px) {
 
-    .summary_col_1-2 li {
-        width: 45%;
-    }
-
     div[id*="project_"] {
         width: 185px;
         height: 135px;
@@ -605,12 +401,12 @@ div[id*="project_"] {
     #contact_form input[type=email] {
         margin: 4px 0;
         height: 40px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #contact_form textarea {
         margin: 4px 0;
-        font-size: 14px;
+        font-size: 16px;
         height: 80px;
     }
 
@@ -623,19 +419,6 @@ div[id*="project_"] {
 
 /* ------- Screen width < 500px -------  */
 @media screen and (max-width: 500px) {
-
-    .summary_col_1-2 {
-        margin: 0;
-    }
-
-    .summary_col_1-4 {
-        width: 90%;
-    }
-
-    .summary_col_1-4 img {
-        height: 90px;
-        width: 250px;
-    }
 
     div[id*="project_"] {
         width: 300px;
