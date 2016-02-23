@@ -191,14 +191,14 @@ div[id*="project_"] {
     vertical-align: middle;
     font-weight: 300;
     font-size: 26px;
-    color: #f3f3f3;
+    color: rgba(52, 152, 219, 1);
     text-decoration: none;
     opacity: 0.0;
     transition: all 0.3s ease;
 }
 
 .button_text p {
-    color: gray;
+    color: #f3f3f3;
     display: inline-block;
     width: 90%;
     font-size: 18px;
