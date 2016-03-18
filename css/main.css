@@ -99,19 +99,20 @@ header {
 }
 
 #projects_grid {
-    width: 95%;
+    width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     text-align: center;
 }
 
 div[id*="project_"] {
     display: inline-block;
-    width: 300px;
-    height: 225px;
+    width: 30%;
+    height: 160px;
     margin: 0;
-    border-radius: 6px;
-    box-shadow: 0px 1px 1px rgba(60, 60, 60, 0.6);
-    transition: all 0.3s ease;
+    border-radius: 2px;
+    border: 8px solid white;
+    box-shadow: 0px 0px 1px rgba(60, 60, 60, 0.3);
 }
 
 #project_transcriptome {
@@ -178,12 +179,12 @@ div[id*="project_"] {
     display: table;
     height: 100%;
     width: 100%;
-    border-radius: 6px;
-    transition: all 0.3s ease;
+    border-radius: 2px;
+    transition: all 0.2s ease;
 }
 
 .button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .button_text {
@@ -194,7 +195,8 @@ div[id*="project_"] {
     color: rgba(52, 152, 219, 1);
     text-decoration: none;
     opacity: 0.0;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
+    text-shadow: 0 0 2px #000;
 }
 
 .button_text p {
@@ -202,6 +204,7 @@ div[id*="project_"] {
     display: inline-block;
     width: 90%;
     font-size: 18px;
+    text-shadow: 0 0 2px #000;
 }
 
 .button_text:hover {
@@ -291,52 +294,14 @@ div[id*="project_"] {
     color: gray;
 }
 
-#contact_form input[type=email] {
-    font-family: 'Roboto', sans-serif;
-    float: right;
-    clear: both;
-    width: 70%;
-    height: 30px;
-    margin: 4px 0;
-    font-size: 18px;
-    padding: 6px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 3px;
-}
 
-#contact_form textarea {
-    font-family: 'Roboto', sans-serif;
-    float: right;
-    clear: both;
-    width: 70%;
-    height: 60px;
-    margin: 4px 0;
-    font-size: 18px;
-    line-height: 18px;
-    padding: 10px 6px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 3px;
-}
 
-#contact_form button {
-    position: relative;
-    top: 0;
-    background: #3498db;
-    float: right;
-    clear: both;
-    width: 120px;
-    height: 40px;
-    margin: 6px;
-    border: 0px solid rgba(0, 0, 0, 0);
-    text-align: center;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 1);
-    border-radius: 3px;
-}
+/* ------- Screen width < 1200px -------  */
+@media screen and (max-width: 1200px) {
 
-#contact_form button:hover {
-    background: #52B3D9;
-    cursor: pointer;
+    div[id*="project_"] {
+        width: 44%;
+    }
 }
 
 
@@ -375,16 +340,8 @@ div[id*="project_"] {
     }
 
     div[id*="project_"] {
-        width: 225px;
+        width: 90%;
         height: 165px;
-    }
-
-    .button_text {
-        font-size: 16px;
-    }
-
-    .button_text p {
-        font-size: 14px;
     }
 }
 
@@ -394,24 +351,8 @@ div[id*="project_"] {
 @media screen and (max-width: 600px) {
 
     div[id*="project_"] {
-        width: 185px;
+        width: 90%;
         height: 135px;
-    }
-
-    #contact_form input[type=email] {
-        margin: 4px 0;
-        height: 40px;
-        font-size: 16px;
-    }
-
-    #contact_form textarea {
-        margin: 4px 0;
-        font-size: 16px;
-        height: 80px;
-    }
-
-    #contact_form button {
-        margin: 4px 0;
     }
 }
 
@@ -420,21 +361,11 @@ div[id*="project_"] {
 /* ------- Screen width < 500px -------  */
 @media screen and (max-width: 500px) {
 
-    div[id*="project_"] {
-        width: 300px;
-        height: 225px;
-    }
-
     .button {
-        background-color: rgba(30, 30, 30, 0.85);
+        background-color: rgba(30, 30, 30, 0.7);
     }
 
     .button_text {
-        font-size: 26px;
         opacity: 1.0;
-    }
-
-    .button_text p {
-        font-size: 18px;
     }
 }
