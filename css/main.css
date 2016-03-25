@@ -31,8 +31,16 @@ header {
     height: 100%;
 }
 
-#top img {
+#img-div {
     display: inline-block;
+    background-color: rgb(53, 114, 176);
+    padding: 0 6px;
+    margin-right: 4px;
+    border-right: 2px solid rgba(46, 61, 84, 0.3);
+    height: 60px;
+}
+
+#top img {
     height: 40px;
     width: 32px;
     margin: 10px;
