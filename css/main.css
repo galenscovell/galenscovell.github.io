@@ -21,7 +21,7 @@ header {
     padding: 0;
     justify-content: space-between;
     background-color: rgb(17, 163, 237);
-    box-shadow: 0px 2px 1px rgba(0, 92, 159, 0.9);
+    box-shadow: 0px 2px 0px rgb(0, 82, 149);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -114,11 +114,13 @@ header {
 
 div[id*="project_"] {
     display: inline-block;
+    box-sizing: border-box;
+    border: 4px solid rgb(16, 149, 217);
     width: 30%;
     height: 160px;
     margin: 2px;
-    border-radius: 2px;
-    box-shadow: 0px 2px 1px rgba(0, 92, 159, 0.9);
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px rgb(0, 82, 149);
 }
 
 #project_transcriptome {
@@ -183,17 +185,13 @@ div[id*="project_"] {
 
 .button {
     display: table;
-    box-sizing: border-box;
-    border: 8px solid rgb(52, 152, 219);
     height: 100%;
     width: 100%;
-    border-radius: 2px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
 .button:hover {
-    background-color: rgb(43, 190, 227);
-    border: 8px solid rgb(43, 190, 227);
+    background-color: rgba(16, 149, 217, 0.9);
 }
 
 .button_text {
@@ -205,7 +203,7 @@ div[id*="project_"] {
     text-decoration: none;
     opacity: 0.0;
     text-shadow: 0 -1px 0 rgba(60, 60, 60, 0.9);
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
 .button_text p {
@@ -364,7 +362,6 @@ div[id*="project_"] {
 
     .button {
         background-color: rgba(30, 30, 30, 0.75);
-        border: 8px solid rgb(43, 190, 227);
     }
 
     .button_text {
