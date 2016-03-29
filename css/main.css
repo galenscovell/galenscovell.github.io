@@ -20,8 +20,7 @@ header {
     margin: 0;
     padding: 0;
     justify-content: space-between;
-    background-color: rgb(17, 163, 237);
-    box-shadow: 0px 2px 3px rgb(0, 82, 149);
+    background-color: rgb(71, 73, 77);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -36,8 +35,8 @@ header {
     background-color: rgb(53, 114, 176);
     margin: 5px;
     height: 50px;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 4px rgba(46, 61, 84, 0.3);
+    border-radius: 2px;
+    margin-right: 10px;
 }
 
 #top img {
@@ -60,25 +59,20 @@ header {
 
 #resume_button {
     display: inline-block;
-    position: relative;
-    height: 50px;
-    margin: 5px 5px;
+    height: 60px;
     padding: 0 20px;
-    background-color: rgb(16, 149, 217);
+    background-color: rgb(71, 73, 77);
     text-decoration: none;
-    color: #f3f3f3;
+    color: gray;
     font-size: 21px;
-    line-height: 50px;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 4px rgba(46, 61, 84, 0.3);
-    text-shadow: 0 -1px 0 rgba(60, 60, 60, 0.9);
-    transition: all 0.1s ease;
+    line-height: 60px;
+    transition: all 0.3s ease;
 }
 
 #resume_button:hover {
     cursor: pointer;
     color: white;
-    background-color: rgb(53, 114, 176);
+    background-color: rgb(81, 83, 87);
 }
 
 
@@ -87,9 +81,7 @@ header {
 #main {
     width: 100%;
     text-align: center;
-    background: url('pics/seamless_paper_texture.png') repeat;
-    background-blend-mode: multiply;
-    background-color: rgba(73, 134, 196, 0.6);
+    background-color: rgb(246, 249, 250);
 }
 
 
@@ -116,11 +108,15 @@ header {
 
 div[id*="project_"] {
     display: inline-block;
+    box-sizing: border-box;
+    border: 8px solid #f3f3f3;
     width: 30%;
     height: 160px;
-    margin: 2px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 0px rgba(0, 109, 177, 1);
+    margin: 4px;
+    border-radius: 2px;
+    box-shadow: 
+        2px 2px 0px rgba(60, 60, 60, 0.4),
+        0px 0px 1px rgba(60, 60, 60, 0.7);
 }
 
 #project_transcriptome {
@@ -187,27 +183,23 @@ div[id*="project_"] {
     display: table;
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
-    border: 6px solid rgba(16, 149, 217, 1);
-    border-radius: 2px;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
 }
 
 .button:hover {
-    background-color: rgba(16, 149, 217, 0.85);
-    border: 6px solid rgba(46, 179, 247, 1);
+    background-color: rgba(16, 149, 217, 0.9);
 }
 
 .button_text {
     display: table-cell;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26px;
     color: white;
     text-decoration: none;
     opacity: 0.0;
     text-shadow: 0 -1px 0 rgba(60, 60, 60, 0.9);
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
 }
 
 .button_text p {
@@ -228,7 +220,8 @@ div[id*="project_"] {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     width: 100%;
-    background: #272727;
+    background: #f3f3f3;
+    border-top: 1px solid rgba(60, 60, 60, 0.2);
     color: gray;
 }
 
@@ -255,8 +248,9 @@ div[id*="project_"] {
 #bubble {
     width: 180px;
     height: 180px;
-    border-radius: 20%;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 2%;
+    border: 4px solid white;
+    box-shadow: 0px 0px 1px rgba(60, 60, 60, 0.9);
 }
 
 #external_links {
@@ -271,15 +265,15 @@ div[id*="project_"] {
 
 #external_links img {
     margin: 10px 10px;
-    width: 50px;
-    height: 50px;
-    border: 4px solid rgba(0, 0, 0, 0);
-    border-radius: 20%;
-    transition: all 0.1s ease;
+    width: 64px;
+    height: 64px;
+    border-radius: 80%;
+    opacity: 0.7;
+    transition: all 0.3s ease;
 }
 
 #external_links img:hover {
-    border: 4px solid rgba(255, 255, 255, 0.9);
+    opacity: 1.0;
 }
 
 #contact_col_2 {
@@ -293,7 +287,7 @@ div[id*="project_"] {
     margin: 10px 0;
     font-size: 21px;
     font-weight: 300;
-    color: #f3f3f3;
+    color: rgb(61, 63, 67);
 }
 
 #contact_col_2 p {
@@ -301,7 +295,7 @@ div[id*="project_"] {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: gray;
+    color: rgba(60, 60, 60, 0.4);
 }
 
 
@@ -327,8 +321,6 @@ div[id*="project_"] {
         width: 90%;
         text-align: center;
         margin-bottom: 20px;
-        border-left: 3px solid rgba(0, 0, 0, 0.3);
-        border-right: 3px solid rgba(0, 0, 0, 0.3);
         padding-right: 0;
     }
 }
