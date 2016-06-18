@@ -109,14 +109,24 @@ header {
 div[id*="project_"] {
     display: inline-block;
     box-sizing: border-box;
-    border: 8px solid #f3f3f3;
+    position: relative;
+    top: 3px;
+    border: 6px solid #f3f3f3;
     width: 30%;
     height: 160px;
-    margin: 4px;
+    margin: 3px;
     border-radius: 2px;
     box-shadow: 
-        2px 2px 0px rgba(60, 60, 60, 0.4),
-        0px 0px 1px rgba(60, 60, 60, 0.7);
+        1px 1px 0px rgba(60, 60, 60, 0.1),
+        0px 0px 1px rgba(60, 60, 60, 0.6);
+    transition: all 0.2s ease;
+}
+
+div[id*="project_"]:hover {
+    top: 0px;
+    box-shadow: 
+        0px 3px 2px rgba(60, 60, 60, 0.4),
+        0px 0px 1px rgba(60, 60, 60, 0.6);
 }
 
 #project_transcriptome {
@@ -187,14 +197,14 @@ div[id*="project_"] {
 }
 
 .button:hover {
-    background-color: rgba(16, 149, 217, 0.9);
+    background-color: rgba(16, 149, 217, 0.8);
 }
 
 .button_text {
     display: table-cell;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 21px;
     color: white;
     text-decoration: none;
     opacity: 0.0;
@@ -206,7 +216,7 @@ div[id*="project_"] {
     color: #f3f3f3;
     display: inline-block;
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .button_text:hover {
