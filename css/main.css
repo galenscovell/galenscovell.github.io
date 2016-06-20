@@ -193,7 +193,7 @@ div[id*="project_"]:hover {
     display: table;
     height: 100%;
     width: 100%;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .button:hover {
@@ -204,12 +204,11 @@ div[id*="project_"]:hover {
     display: table-cell;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 28px;
     color: white;
     text-decoration: none;
     opacity: 0.0;
-    text-shadow: 0 -1px 0 rgba(60, 60, 60, 0.9);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .button_text p {
@@ -220,6 +219,7 @@ div[id*="project_"]:hover {
 }
 
 .button_text:hover {
+    font-size: 21px;
     opacity: 1.0;
 }
 
