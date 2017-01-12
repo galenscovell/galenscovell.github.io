@@ -265,8 +265,8 @@ div[id*="project_"]:hover {
 
 #external_links {
     width: 90%;
-    padding: 10px;
-    margin: 0 auto;
+    padding: 12px;
+    margin: 12px auto;
 }
 
 #external_links a {
