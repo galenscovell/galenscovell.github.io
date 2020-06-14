@@ -258,7 +258,8 @@ div[id*="project_"]:hover {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    box-shadow: 2px 2px 6px rgba(60, 60, 60, 0.8);
+    box-shadow: 0px 0px 6px rgba(60, 60, 60, 0.1);
+    border: 5px solid #f4f7fa;
 }
 
 #external_links {
