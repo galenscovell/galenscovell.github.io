@@ -127,6 +127,11 @@ div[id*="project_"]:hover {
     box-shadow: 0px 0px 16px rgba(60, 60, 60, 0.5);
 }
 
+#project_probable_journey {
+    background: url('pics/probable-journey.png') no-repeat center;
+    background-size: 100%;
+}
+
 #project_kage {
     background: url('pics/kage.png') no-repeat center;
     background-size: 100%;
@@ -184,6 +189,16 @@ div[id*="project_"]:hover {
 
 #project_quadtree {
     background: url('pics/quadtree.png') no-repeat center;
+    background-size: 100%;
+}
+
+#project_weathered {
+    background: url('pics/weathered.png') no-repeat center;
+    background-size: 100%;
+}
+
+#project_snake {
+    background: url('pics/snake.png') no-repeat center;
     background-size: 100%;
 }
 
