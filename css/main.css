@@ -1,7 +1,3 @@
-
-/* galenscovell.github.io */
-
-
 html, body {
     width: 100%;
     margin: 0px;
@@ -43,18 +39,6 @@ header {
     height: 35px;
     width: 28px;
     margin: 8px 10px;
-}
-
-#top p {
-    text-decoration: none;
-    display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    vertical-align: top;
-    font-size: 21px;
-    color: #f3f3f3;
-    margin: 0;
-    text-shadow: 0 -1px 0 rgba(60, 60, 60, 0.9);
 }
 
 #resume_button {
