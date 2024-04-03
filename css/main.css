@@ -52,14 +52,14 @@ header {
     text-decoration: none;
     color: #47494d;
     font-size: 21px;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 #resume_button:hover {
     cursor: pointer;
     color: #f4f7fa;
-    background-color: #55a8fd;
-    transition: all 0.2s ease;
+    background-color: rgba(116, 185, 255, 0.9);
+    transition: all 0.3s ease;
 }
 
 
@@ -111,8 +111,13 @@ div[id*="project_"]:hover {
     box-shadow: 0px 0px 16px rgba(60, 60, 60, 0.5);
 }
 
-#project_probable_journey {
-    background: url('pics/probable-journey.png') no-repeat center;
+#project_bouken {
+    background: url('pics/bouken.png') no-repeat center;
+    background-size: 100%;
+}
+
+#project_ruby_hunter {
+    background: url('pics/ruby-hunter.png') no-repeat center;
     background-size: 100%;
 }
 
@@ -195,7 +200,7 @@ div[id*="project_"]:hover {
 }
 
 .button:hover {
-    background-color: #55a8fd;
+    background-color: rgba(116, 185, 255, 0.9);
     transition: all 0.3s ease;
 }
 
